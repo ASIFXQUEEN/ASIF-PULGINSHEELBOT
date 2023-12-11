@@ -11,11 +11,11 @@ from TelethonHell.plugins import *
 # -------------------------------------------------------------------------------
 
 ALIVE_TEMP = """
-<b><i>🔥🔥ɦɛʟʟɮօt ɨs օռʟɨռɛ🔥🔥</i></b>
+<b><i>🔥🔥𝗣𝗕𝘅𝗕𝗢𝗧 𝐈s 𝐎ɴʟɪɴᴇ 𝐁ᴀʙʏ🔥🔥</i></b>
 <b><i>↼ Øwñêr ⇀</i></b> : 『 {hell_mention} 』
 ╭──────────────
 ┣─ <b>» Telethon:</b> <i>{telethon_version}</i>
-┣─ <b>» Hêllẞø†:</b> <i>{hellbot_version}</i>
+┣─ <b>» 𝗣ʙ𝘅𝗕ᴏᴛ:</b> <i>{hellbot_version}</i>
 ┣─ <b>» Sudo:</b> <i>{is_sudo}</i>
 ┣─ <b>» Uptime:</b> <i>{uptime}</i>
 ┣─ <b>» Ping:</b> <i>{ping}</i>
@@ -26,7 +26,7 @@ ALIVE_TEMP = """
 msg = """{}\n
 <b><i>🏅 𝙱𝚘𝚝 𝚂𝚝𝚊𝚝𝚞𝚜 🏅</b></i>
 <b>Telethon ≈</b>  <i>{}</i>
-<b>Hêllẞø† ≈</b>  <i>{}</i>
+<b>𝗣ʙ𝘅𝗕ᴏᴛ ≈</b>  <i>{}</i>
 <b>Uptime ≈</b>  <i>{}</i>
 <b>Abuse ≈</b>  <i>{}</i>
 <b>Sudo ≈</b>  <i>{}</i>
@@ -65,7 +65,7 @@ async def _(event):
                 pic_list.append(c)
         PIC = random.choice(pic_list)
     else:
-        PIC = "https://te.legra.ph/file/ea9e11f7c9db21c1b8d5e.mp4"
+        PIC = ""
     end = datetime.datetime.now()
     ping = (end - start).microseconds / 1000
     alive = alive_temp.format(
