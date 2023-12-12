@@ -51,7 +51,7 @@ async def set_alive_temp(event):
 async def _(event):
     start = datetime.datetime.now()
     userid, hell_user, hell_mention = await client_id(event, is_html=True)
-    hell = await eor(event, "`Building Alive....`")
+    hell = await eor(event, "`Loading Alive....`")
     reply = await event.get_reply_message()
     uptime = await get_time((time.time() - StartTime))
     name = gvarstat("ALIVE_NAME") or hell_user
@@ -86,11 +86,11 @@ async def _(event):
     await hell.delete()
 
 
-@hell_cmd(pattern="hell$")
+@hell_cmd(pattern="pbx$")
 async def hell_a(event):
     userid, _, _ = await client_id(event)
     uptime = await get_time((time.time() - StartTime))
-    am = gvarstat("ALIVE_MSG") or "<b>»» нєℓℓвσт ιѕ σиℓιиє ««</b>"
+    am = gvarstat("ALIVE_MSG") or "<b>»» 𝗣𝗕𝘅𝗕𝗢𝗧 𝐈s 𝐎ɴʟɪɴᴇ 𝐁ᴀʙʏ ««</b>"
     try:
         hell = await event.client.inline_query(Config.BOT_USERNAME, "alive")
         await hell[0].click(event.chat_id)
@@ -107,7 +107,7 @@ async def hell_a(event):
 CmdHelp("alive").add_command(
     "alive", None, "Shows the default Alive message."
 ).add_command(
-    "hell", None, "Shows inline Alive message."
+    "pbx", None, "Shows inline Alive message."
 ).add_warning(
-    "✅ Harmless Module"
+    "⚠️ Harmless Module.Use It At Your Own Risk"
 ).add()
