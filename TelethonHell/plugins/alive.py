@@ -26,7 +26,7 @@ ALIVE_TEMP = """
 msg = """{}\n
 <b><i>🏅 𝙱𝚘𝚝 𝚂𝚝𝚊𝚝𝚞𝚜 🏅</b></i>
 <b>Telethon ≈</b>  <i>{}</i>
-<b>𝗣ʙ𝘅𝗕ᴏᴛ ≈</b>  <i>{}</i>
+<b>𝗣𝗕𝘅𝗕𝗢𝗧 ≈</b>  <i>{}</i>
 <b>Uptime ≈</b>  <i>{}</i>
 <b>Abuse ≈</b>  <i>{}</i>
 <b>Sudo ≈</b>  <i>{}</i>
@@ -56,7 +56,6 @@ async def _(event):
     uptime = await get_time((time.time() - StartTime))
     name = gvarstat("ALIVE_NAME") or hell_user
     alive_temp = gvarstat("ALIVE_TEMPLATE") or ALIVE_TEMP
-    a = gvarstat("ALIVE_PIC")
     pic_list = []
     if a:
         b = a.split(" ")
