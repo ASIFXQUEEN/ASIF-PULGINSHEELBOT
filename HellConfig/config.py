@@ -29,7 +29,7 @@ class Config(object):
     LYRICS_API = os.environ.get("LYRICS_API", None)
     MAX_SPAM = int(os.environ.get("MAX_SPAM", 3))
     MY_CHANNEL = os.environ.get("YOUR_CHANNEL", "Its_HellBot")
-    MY_GROUP = os.environ.get("YOUR_GROUP", "HellBot_Chat")
+    MY_GROUP = os.environ.get("YOUR_GROUP", "ll_PBX_ll")
     OCR_API = os.environ.get("OCR_API", None)
     PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", 0))
     PM_LOGGER = int(os.environ.get("PM_LOGGER", 0))
