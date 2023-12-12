@@ -7,4 +7,4 @@ logging.basicConfig(
     datefmt="%H:%M:%S",
 )
 
-LOGGER = logging.getLogger("ll_PBX_ll")
+LOGGER = logging.getLogger("DevilXUser")
