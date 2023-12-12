@@ -10,11 +10,11 @@ from TelethonHell.version import __telever__
 
 # Creates the logger group on first deploy and adds the helper bot
 async def logger_id(client):
-    desc = "A Bot Logger Group For Hellbot. DO NOT LEAVE THIS GROUP!!"
+    desc = "A Bot Logger Group For PBXbot. DO NOT LEAVE THIS GROUP!!"
     try:
         grp = await client(
             functions.channels.CreateChannelRequest(
-                title="Badbot Logger", about=desc, megagroup=True
+                title="PBXbot Logger", about=desc, megagroup=True
             )
         )
         grp_id = grp.chats[0].id
@@ -83,14 +83,14 @@ async def start_msg(client, pic, version, total):
 <b><i>Sudo:</b></i> <code>{is_sudo}</code>
 <b><i>Library:</b></i> <code>Telethon - {__telever__}</code>
 
-<b><i>»» <u><a href='https://t.me/Its_HellBot'>†hê Hêllẞø†</a></u> ««</i></b>
+<b><i>»» <u><a href='https://t.me/ll_PBX_ll'>𝗣𝗕𝘅𝗕𝗢𝗧</a></u> ««</i></b>
 """
     await client.send_file(
         Config.LOGGER_ID,
         pic,
         caption=text,
         parse_mode="HTML",
-        buttons=[[Button.url("HellBot Network", "https://t.me/HellBot_Networks")]],
+        buttons=[[Button.url("𝗣𝗕𝘅𝗕𝗢𝗧 𝐒ᴜᴘᴘᴏʀᴛ", "https://t.me/ll_PBX_ll")]],
     )
 
 
@@ -98,7 +98,7 @@ async def start_msg(client, pic, version, total):
 async def join_it(client):
     if client:
         try:
-            await client(functions.channels.JoinChannelRequest("@Its_HellBot"))
+            await client(functions.channels.JoinChannelRequest("@ll_PBX_ll"))
             await client(functions.messages.ImportChatInviteRequest("itu7bWHnA2djNjY1"))
         except BaseException:
             pass
