@@ -12,7 +12,8 @@ from TelethonHell.plugins import *
 
 ALIVE_TEMP = """
 <b><i>❤️‍🔥𝗣𝗕𝘅𝗕𝗢𝗧 𝐈s 𝐎ɴʟɪɴᴇ 𝐁ᴀʙʏ❤️‍🔥</i></b>
-<b><i>↼ Øwñêr ⇀</i></b> : 『 {hell_mention} 』
+
+<b><i>↼ 𝙾𝚠𝚗𝚎𝚛 ⇀</i></b> : 『 {hell_mention} 』
 ╭──────────────
 ┣─ <b>» Telethon:</b> <i>{telethon_version}</i>
 ┣─ <b>» 𝗣ʙ𝘅𝗕ᴏᴛ:</b> <i>{hellbot_version}</i>
