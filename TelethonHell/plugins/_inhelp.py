@@ -330,7 +330,7 @@ if Config.BOT_USERNAME and tbot:
                 f"{hell_emoji} Re-Open Menu {hell_emoji}", data="reopen"
             )
             await event.edit(
-                f"**🎭 Closed HellBot's help menu**\n\n**Bot Of:**  {hell_mention}\n\n        [©️ Hêllẞø† ™️]({chnl_link})",
+                f"**🎭 Closed PbXBot's help menu**\n\n**Bot Of:**  {hell_mention}\n\n        [©️ 𝐏ʙ𝐗ʙᴏᴛ ™️]({chnl_link})",
                 buttons=veriler,
                 link_preview=False,
             )
