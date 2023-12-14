@@ -32,7 +32,7 @@ async def pong(event):
                 pic_list.append(c)
         PIC = choice(pic_list)
     else:
-        PIC = "https://te.legra.ph/file/ea9e11f7c9db21c1b8d5e.mp4"
+        PIC = "https://telegra.ph/file/14166208a7bf871cb0aca.jpg"
     hell = await eor(event, "`·.·★ ℘ıŋɠ ★·.·´")
     ForGo10God, HELL_USER, hell_mention = await client_id(event, is_html=True)
     uptime = await get_time((time.time() - StartTime))
