@@ -93,7 +93,7 @@ if Config.BOT_USERNAME and tbot:
                 result = builder.document(
                     help_pic,
                     text=help_msg,
-                    title="HellBot Alive",
+                    title="𝐏ʙ𝐗ʙᴏᴛ Alive",
                     buttons=veriler[1],
                     link_preview=False,
                 )
