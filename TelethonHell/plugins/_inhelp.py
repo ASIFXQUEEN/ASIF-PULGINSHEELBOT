@@ -403,7 +403,7 @@ if Config.BOT_USERNAME and tbot:
             )
         else:
             return await event.answer(
-                "Hello! This help menu is not for you, you can make yourself a HellBot and use your bot. Go to @Its_HellBot for more info.",
+                "Hello! This help menu is not for you, you can make yourself a PbXBot and use your bot. Go to @ll_THE_BAD_BOT_ll for more info.",
                 cache_time=0,
                 alert=True,
             )
