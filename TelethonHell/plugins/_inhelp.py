@@ -206,14 +206,14 @@ if Config.BOT_USERNAME and tbot:
                 title="Repository",
                 text=f"**⚡ ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt ⚡**",
                 buttons=[
-                    [Button.url("📑 Repo 📑", "https://github.com/MXNIHACKER/DevilXUser")],
-                    [Button.url("HellBot Network", "https://t.me/ll_THE_BAD_BOT_ll")],
+                    [Button.url("📑 𝐑ᴇᴘᴏ 📑", "https://github.com/MXNIHACKER/DevilXUser")],
+                    [Button.url("𝐏ʙ𝐗ʙᴏᴛ 𝐍ᴇᴛᴡᴏʀᴋ", "https://t.me/ll_THE_BAD_BOT_ll")],
                 ],
             )
 
         else:
             result = builder.article(
-                "@Its_HellBot",
+                "@ll_THE_BAD_BOT_ll",
                 text="""**Hey! This is [Hêllẞø†](https://t.me/its_hellbot) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
