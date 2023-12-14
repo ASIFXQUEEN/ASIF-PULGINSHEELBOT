@@ -21,7 +21,7 @@ ALIVE_TEMP = """
 ┣─ <b>» Uptime:</b> <i>{uptime}</i>
 ┣─ <b>» Ping:</b> <i>{ping}</i>
 ╰──────────────
-<b><i>»»» <a href='https://t.me/THE_DRAMA_CLUB_01'>[𝐓ʜᴇ 𝗣𝗕𝘅𝗕𝗢𝗧]</a> «««</i></b>
+<b><i>»»» <a href='https://t.me/ll_THE_BAD_BOT_ll'>[𝐓ʜᴇ 𝗣𝗕𝘅𝗕𝗢𝗧]</a> «««</i></b>
 """
 
 msg = """{}\n
