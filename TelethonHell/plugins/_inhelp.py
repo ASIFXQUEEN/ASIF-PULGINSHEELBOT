@@ -204,8 +204,8 @@ if Config.BOT_USERNAME and tbot:
         elif event.query.user_id in auth and query == "repo":
             result = builder.article(
                 title="Repository",
-                text=f"**⚡  ⚡**",
-                buttons=[ 𝐏ʙ𝐗ʙᴏᴛ 𝐑ᴇᴘᴏ
+                text=f"**👻𝐏ʙ𝐗ʙᴏᴛ👻**",
+                buttons=[
                     [Button.url("📑 𝐑ᴇᴘᴏ 📑", "https://github.com/MXNIHACKER/DevilXUser")],
                     [Button.url("𝐏ʙ𝐗ʙᴏᴛ 𝐍ᴇᴛᴡᴏʀᴋ", "https://t.me/ll_THE_BAD_BOT_ll")],
                 ],
