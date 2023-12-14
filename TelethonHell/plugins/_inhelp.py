@@ -206,8 +206,8 @@ if Config.BOT_USERNAME and tbot:
                 title="Repository",
                 text=f"**⚡ ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt ⚡**",
                 buttons=[
-                    [Button.url("📑 Repo 📑", "https://github.com/The-HellBot/HellBot")],
-                    [Button.url("HellBot Network", "https://t.me/hellbot_networks")],
+                    [Button.url("📑 Repo 📑", "https://github.com/MXNIHACKER/DevilXUser")],
+                    [Button.url("HellBot Network", "https://t.me/ll_THE_BAD_BOT_ll")],
                 ],
             )
 
