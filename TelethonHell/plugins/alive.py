@@ -11,7 +11,7 @@ from TelethonHell.plugins import *
 # -------------------------------------------------------------------------------
 
 ALIVE_TEMP = """
-<b><i>🔥🔥𝐏ʙ𝐗ʙᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ🔥🔥</i></b>
+<b><i>🎈🔥𝐏ʙ 𝐗 ʙᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ🔥🎈</i></b>
 <b><i>↼ Øwñêr ⇀</i></b> : 『 {hell_mention} 』
 ╭──────────────
 ┣─ <b>» Telethon:</b> <i>{telethon_version}</i>
@@ -90,7 +90,7 @@ async def _(event):
 async def hell_a(event):
     userid, _, _ = await client_id(event)
     uptime = await get_time((time.time() - StartTime))
-    am = gvarstat("ALIVE_MSG") or "<b>»» 𝐏ʙ𝐗ʙᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ ««</b>"
+    am = gvarstat("ALIVE_MSG") or "<b>»» 𝐏ʙ 𝐗 ʙᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ ««</b>"
     try:
         hell = await event.client.inline_query(Config.BOT_USERNAME, "alive")
         await hell[0].click(event.chat_id)
