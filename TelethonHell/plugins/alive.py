@@ -11,23 +11,22 @@ from TelethonHell.plugins import *
 # -------------------------------------------------------------------------------
 
 ALIVE_TEMP = """
-<b><i>❤️‍🔥𝗣𝗕𝘅𝗕𝗢𝗧 𝐈s 𝐎ɴʟɪɴᴇ 𝐁ᴀʙʏ❤️‍🔥</i></b>
-
-<b><i>↼ 𝙾𝚠𝚗𝚎𝚛 ⇀</i></b> : 『 {hell_mention} 』
+<b><i>🔥🔥ɦɛʟʟɮօt ɨs օռʟɨռɛ🔥🔥</i></b>
+<b><i>↼ Øwñêr ⇀</i></b> : 『 {hell_mention} 』
 ╭──────────────
 ┣─ <b>» Telethon:</b> <i>{telethon_version}</i>
-┣─ <b>» 𝗣ʙ𝘅𝗕ᴏᴛ:</b> <i>{hellbot_version}</i>
+┣─ <b>» Hêllẞø†:</b> <i>{hellbot_version}</i>
 ┣─ <b>» Sudo:</b> <i>{is_sudo}</i>
 ┣─ <b>» Uptime:</b> <i>{uptime}</i>
 ┣─ <b>» Ping:</b> <i>{ping}</i>
 ╰──────────────
-<b><i>»»» <a href='https://t.me/ll_THE_BAD_BOT_ll'>[𝐓ʜᴇ 𝗣𝗕𝘅𝗕𝗢𝗧]</a> «««</i></b>
+<b><i>»»» <a href='https://t.me/its_hellbot'>[†hê Hêllẞø†]</a> «««</i></b>
 """
 
 msg = """{}\n
 <b><i>🏅 𝙱𝚘𝚝 𝚂𝚝𝚊𝚝𝚞𝚜 🏅</b></i>
 <b>Telethon ≈</b>  <i>{}</i>
-<b>𝗣𝗕𝘅𝗕𝗢𝗧 ≈</b>  <i>{}</i>
+<b>Hêllẞø† ≈</b>  <i>{}</i>
 <b>Uptime ≈</b>  <i>{}</i>
 <b>Abuse ≈</b>  <i>{}</i>
 <b>Sudo ≈</b>  <i>{}</i>
@@ -52,11 +51,12 @@ async def set_alive_temp(event):
 async def _(event):
     start = datetime.datetime.now()
     userid, hell_user, hell_mention = await client_id(event, is_html=True)
-    hell = await eor(event, "`Loading Alive....`")
+    hell = await eor(event, "`Building Alive....`")
     reply = await event.get_reply_message()
     uptime = await get_time((time.time() - StartTime))
     name = gvarstat("ALIVE_NAME") or hell_user
     alive_temp = gvarstat("ALIVE_TEMPLATE") or ALIVE_TEMP
+    a = gvarstat("ALIVE_PIC")
     pic_list = []
     if a:
         b = a.split(" ")
@@ -65,7 +65,7 @@ async def _(event):
                 pic_list.append(c)
         PIC = random.choice(pic_list)
     else:
-        PIC = "https://te.legra.ph/file/cd0e83324c09c6872207f.jpg"
+        PIC = "https://te.legra.ph/file/ea9e11f7c9db21c1b8d5e.mp4"
     end = datetime.datetime.now()
     ping = (end - start).microseconds / 1000
     alive = alive_temp.format(
@@ -86,11 +86,11 @@ async def _(event):
     await hell.delete()
 
 
-@hell_cmd(pattern="pbx$")
+@hell_cmd(pattern="hell$")
 async def hell_a(event):
     userid, _, _ = await client_id(event)
     uptime = await get_time((time.time() - StartTime))
-    am = gvarstat("ALIVE_MSG") or "<b>»» 𝗣𝗕𝘅𝗕𝗢𝗧 𝐈s 𝐎ɴʟɪɴᴇ 𝐁ᴀʙʏ ««</b>"
+    am = gvarstat("ALIVE_MSG") or "<b>»» нєℓℓвσт ιѕ σиℓιиє ««</b>"
     try:
         hell = await event.client.inline_query(Config.BOT_USERNAME, "alive")
         await hell[0].click(event.chat_id)
@@ -107,7 +107,7 @@ async def hell_a(event):
 CmdHelp("alive").add_command(
     "alive", None, "Shows the default Alive message."
 ).add_command(
-    "pbx", None, "Shows inline Alive message."
+    "hell", None, "Shows inline Alive message."
 ).add_warning(
-    "⚠️ Harmless Module.Use It At Your Own Risk"
+    "✅ Harmless Module"
 ).add()
