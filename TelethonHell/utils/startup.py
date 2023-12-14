@@ -14,7 +14,7 @@ async def logger_id(client):
     try:
         grp = await client(
             functions.channels.CreateChannelRequest(
-                title="PBXbot Logger", about=desc, megagroup=True
+                title="ᴘʙxʙᴏᴛ ʟᴏɢɢᴇʀ", about=desc, megagroup=True
             )
         )
         grp_id = grp.chats[0].id
