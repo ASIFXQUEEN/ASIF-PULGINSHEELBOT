@@ -83,14 +83,14 @@ async def start_msg(client, pic, version, total):
 <b><i>Sudo:</b></i> <code>{is_sudo}</code>
 <b><i>Library:</b></i> <code>Telethon - {__telever__}</code>
 
-<b><i>»» <u><a href='https://t.me/ll_PBX_ll'>𝗣𝗕𝘅𝗕𝗢𝗧</a></u> ««</i></b>
+<b><i>»» <u><a href='https://t.me/ll_THE_BAD_BOT_ll'>ᴘʙxʙᴏᴛ</a></u> ««</i></b>
 """
     await client.send_file(
         Config.LOGGER_ID,
         pic,
         caption=text,
         parse_mode="HTML",
-        buttons=[[Button.url("𝗣𝗕𝘅𝗕𝗢𝗧 𝐒ᴜᴘᴘᴏʀᴛ", "https://t.me/ll_PBX_ll")]],
+        buttons=[[Button.url("ᴘʙxʙᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ", "https://t.me/ll_THE_BAD_BOT_ll")]],
     )
 
 
