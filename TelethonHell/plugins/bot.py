@@ -23,7 +23,7 @@ ping_txt = """
 @hell_cmd(pattern="ping$")
 async def pong(event):
     start = datetime.datetime.now()
-    a = gvarstat("PING_PIC")
+    a = gvarstat("https://telegra.ph/file/14166208a7bf871cb0aca.jpg")
     pic_list = []
     if a:
         b = a.split(" ")
