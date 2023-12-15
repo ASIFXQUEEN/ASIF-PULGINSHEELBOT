@@ -24,9 +24,9 @@ ALIVE_TEMP = """
 <b><i>»»» <a href='https://t.me/ll_THE_BAD_BOT_ll'>[𝐓ʜᴇ 𝐏ʙ𝐗ʙᴏᴛ]</a> «««</i></b>
 
 
-<b><i>⛧ <a href='https://t.me/II_BAD_MUNDA_II'>[⎯꯭̽🇨🇦꯭꯭ ʙᴀᴅ ᴍᴜɴᴅᴀ🌸]</a> ⛧</i></b>
+<b><i>⛧ <a href='https://t.me/II_BAD_MUNDA_II'>✦⎯꯭̽🇨🇦꯭꯭ ʙᴀᴅ ᴍᴜɴᴅᴀ🌸✦</a> ⛧</i></b>
 
-<b><i>⛧ <a href='https://t.me/ll_mxni_ll'>[𐏓 ⃪⃝💸 ꯭ᴄᴜᴛᴇ ᴅᴇᴠɪʟ🦅⃕⃔]</a> ⛧</i></b>
+<b><i>⛧ <a href='https://t.me/ll_mxni_ll'>✦𐏓 ⃪⃝💸 ꯭ᴄᴜᴛᴇ ᴅᴇᴠɪʟ🦅⃕⃔✦</a> ⛧</i></b>
 """
 
 msg = """{}\n
