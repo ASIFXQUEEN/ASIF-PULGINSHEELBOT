@@ -335,7 +335,15 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 12])
 
-
+@hell_cmd(pattern="bad$")
+async def _(event):
+    event = await eor(event, "bad")
+    deq = deque(list("🇧 🇦 🇩  🇧 🇦 🇧 🇾 "))
+    for _ in range(48):
+        await asyncio.sleep(0.1)
+        await event.edit("".join(deq))
+        deq.rotate(1)
+        
 @hell_cmd(pattern="theart$")
 async def _(event):
     animation_interval = 0.3
@@ -412,6 +420,8 @@ CmdHelp("animoji").add_command(
     "hand", None, "Use and See."
 ).add_command(
     "gsg", None, "Use and See."
+).add_command(
+    "bad", None, "Use and see"
 ).add_command(
     "theart", None, "Hearts Animation."
 ).add()
