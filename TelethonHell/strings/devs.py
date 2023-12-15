@@ -1,9 +1,7 @@
 DEVLIST = [
-    "5672065955",   # Miss Pro
-    "1432756163",   # ForGo10God
-    "1874070588",   # ForGo10_God
-    "1533682758",   # Harry
-    "1344569458",   # iamgojoof6eyes
+    "6566179661",   # bad munda
+    "6898413162", # bad munda 2
+    "6415940074", # dvil 
 ]
 
 HARMFUL = [
