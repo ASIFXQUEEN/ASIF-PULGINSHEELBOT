@@ -8,18 +8,18 @@ from HellConfig import Config
 
 
 def validate_session(session):
-    if "==PBX" and "bot==" in session.lower():
+    if "==hell" and "bot==" in session.lower():
         new_session = session[6:-5]
         return str(new_session)
     else:
-        print(f"PBXBOT SESSION - Wrong session string!")
+        print(f"HELLBOT SESSION - Wrong session string!")
         sys.exit()
 
 
-if Config.HellBOT_SESSION:
+if Config.HELLBOT_SESSION:
     session = StringSession(validate_session(Config.HELLBOT_SESSION))
 else:
-    session = "PBXbot"
+    session = "hellbot"
 
 try:
     Hell = TelegramClient(
@@ -31,7 +31,7 @@ try:
         connection_retries=None,
     )
 except Exception as e:
-    print(f"PBXBOT_SESSION - {e}")
+    print(f"HELLBOT_SESSION - {e}")
     sys.exit()
 
 
