@@ -337,12 +337,26 @@ async def _(event):
 
 @hell_cmd(pattern="bad$")
 async def _(event):
-    event = await eor(event, "bad")
-    deq = deque(list("🇧 🇦 🇩  🇧 🇦 🇧 🇾 "))
-    for _ in range(48):
-        await asyncio.sleep(0.1)
-        await event.edit("".join(deq))
-        deq.rotate(1)
+    animation_interval = 1
+    animation_ttl = range(12)
+    event = await eor(event, "start....")
+    animation_chars = [
+        "❤️",
+        "🖤",
+        "🤍",
+        "💘",
+        "💝",
+        "💖",
+        "💗",
+        "💓",
+        "💞",
+        "❤️‍🔥",
+        "❤️‍🩹",
+        "🇧 🇦 🇩  🇧 🇦 🇧 🇾 ",
+    ]
+    for i in animation_ttl:
+        await asyncio.sleep(animation_interval)
+        await event.edit(animation_chars[i % 12])
         
 @hell_cmd(pattern="theart$")
 async def _(event):
