@@ -77,16 +77,6 @@ async def _(event):
         uptime=uptime,
         ping=ping,
     )
-elif event.query.user_id in auth and query == "alive":
-            result = builder.article(
-                title="alive",
-                text=f"**⚡ PbX ⚡**",
-                buttons=[
-                    [Button.url("📑 Repo 📑", "https://github.com/The-HellBot/HellBot")],
-                    [Button.url("HellBot Network", "https://t.me/hellbot_networks")],
-                ],
-            )
-    
     await event.client.send_file(
         event.chat_id,
         file=PIC,
