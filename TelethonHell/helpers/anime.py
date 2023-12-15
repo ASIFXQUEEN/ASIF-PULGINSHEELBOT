@@ -432,7 +432,7 @@ async def get_anilist(qdb, page):
     banner_ = requests.get(banner)
     open(f"{idm}.jpg", "wb").write(banner_.content)
     title_img = f"{idm}.jpg"
-    logo = "https://telegra.ph/file/2c546060b20dfd7c1ff2d.jpg"
+    logo = "https://graph.org/file/06c7c73faded13f743de4.jpg"
     descr = ""
     descr += f"<img src='{banner}'/> \n"
     descr += data["description"]
@@ -479,7 +479,7 @@ async def get_manga(qdb, page):
         name = f"""« {c_flag} » **{romaji}**
         {native}"""
     banner = f"https://img.anili.st/media/{idm}"
-    logo = "https://telegra.ph/file/2c546060b20dfd7c1ff2d.jpg"
+    logo = "https://graph.org/file/06c7c73faded13f743de4.jpg"
     descr = ""
     descr += f"<img src='{banner}'/> \n"
     descr += synopsis
