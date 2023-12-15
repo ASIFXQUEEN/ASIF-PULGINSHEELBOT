@@ -9,7 +9,7 @@ from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 from TelethonHell.plugins import *
 
-hellbot_info = "https://raw.githubusercontent.com/The-HellBot/Plugins/master/hellbot-info.json"
+hellbot_info = "https://raw.githubusercontent.com/BadXPlugins/Plugins/master/hellbot-info.json"
 Heroku = heroku3.from_key(Config.HEROKU_API_KEY)
 HEROKU_API_KEY = Config.HEROKU_API_KEY or None
 HEROKU_APP_NAME = Config.HEROKU_APP_NAME or None
@@ -20,11 +20,11 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 async def hell_info(hellbot_info):
     infos = requests.get(hellbot_info).json()
-    _version = infos["HELLBOT-INFO"]["version"]
-    _release = infos["HELLBOT-INFO"]["release-date"]
-    _branch = infos["HELLBOT-INFO"]["branch"]
-    _author = infos["HELLBOT-INFO"]["author"]
-    _coauthor = infos["HELLBOT-INFO"]["co-author"]
+    _version = infos["PBXBOT-INFO"]["version"]
+    _release = infos["PBXBOT-INFO"]["release-date"]
+    _branch = infos["PBXBOT-INFO"]["branch"]
+    _author = infos["PBXBOT-INFO"]["author"]
+    _coauthor = infos["PBXBOT-INFO"]["co-author"]
     return _version, _release, _branch, _author, _coauthor
 
 
@@ -232,7 +232,7 @@ async def upstream(event):
     ups_rem.fetch(ac_br)
     _version, _release, _branch, _author, _coauthor = await hell_info(hellbot_info)
     await event.edit(
-        f"<b><i>Hêllẞø† Docker Build In Progress !!</b></i> \n\n<b><i><u>Update Information:</b></i></u> \n<b>• Branch:</b> {_branch} \n<b>• Release Date:</b> {_release} \n<b>• Version:</b> {_version} \n<b>• Authors:</b> <a href='https://github.com/{_author}'>{_author}</a>, <a href='https://github.com/{_coauthor}'>{_coauthor}</a>",
+        f"<b><i>ᴘʙx Docker Build In Progress !!</b></i> \n\n<b><i><u>Update Information:</b></i></u> \n<b>• Branch:</b> {_branch} \n<b>• Release Date:</b> {_release} \n<b>• Version:</b> {_version} \n<b>• Authors:</b> <a href='https://github.com/{_author}'>{_author}</a>, <a href='https://github.com/{_coauthor}'>{_coauthor}</a>",
         link_preview=False,
         parse_mode="HTML",
     )
@@ -246,7 +246,7 @@ CmdHelp("updater").add_command(
 ).add_command(
     "update build", None, "Hard-Update Your Hêllẞø†. This won't take you back to your previous deploy. This will be triggered even if there is no changelog."
 ).add_info(
-    "Hêllẞø† Updater."
+    "ᴘʙx Updater."
 ).add_warning(
     "✅ Harmless Module."
 ).add()
