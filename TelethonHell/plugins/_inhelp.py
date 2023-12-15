@@ -308,14 +308,14 @@ if Config.BOT_USERNAME and tbot:
 
             if help_pic == "DISABLE":
                 await event.edit(
-                    text=f"🔰 **{hell_mention}**\n\n📜 __Plugins:__ `{len(CMD_HELP)}` \n🗂️ __Commands:__ `{len(apn)}`\n🗒️ __Page:__ 1/{veriler[0]}",
+                    text=f"📌 **{hell_mention}**\n\n📃 __Plugins:__ `{len(CMD_HELP)}` \n📂 __Commands:__ `{len(apn)}`\n✉️ __Page:__ 1/{veriler[0]}",
                     buttons=simp[1],
                     link_preview=False,
                     file=None,
                 )
             else:
                 await event.edit(
-                    text=f"🔰 **{hell_mention}**\n\n📜 __Plugins:__ `{len(CMD_HELP)}` \n🗂️ __Commands:__ `{len(apn)}`\n🗒️ __Page:__ 1/{veriler[0]}",
+                    text=f"📌 **{hell_mention}**\n\n📝 __Plugins:__ `{len(CMD_HELP)}` \n📂 __Commands:__ `{len(apn)}`\n📃 __Page:__ 1/{veriler[0]}",
                     buttons=simp[1],
                     link_preview=False,
                     file=help_pic,
@@ -332,7 +332,7 @@ if Config.BOT_USERNAME and tbot:
                 f"{hell_emoji} Re-Open Menu {hell_emoji}", data="reopen"
             )
             await event.edit(
-                f"**🎭 Closed PbXBot's help menu**\n\n**Bot Of:**  {hell_mention}\n\n        [©️ 𝐏ʙ𝐗ʙᴏᴛ ™️]({chnl_link})",
+                f"**🎭 Closed ᴘʙxʙᴏᴛ's help menu**\n\n**Bot Of:**  {hell_mention}\n\n        [©️ 𝐏ʙ𝐗ʙᴏᴛ ™️]({chnl_link})",
                 buttons=veriler,
                 link_preview=False,
             )
@@ -368,7 +368,7 @@ if Config.BOT_USERNAME and tbot:
                 apn.append(y)
         if event.query.user_id in auth:
             await event.edit(
-                f"🔰 **{hell_mention}**\n\n📜 __Plugins:__ `{len(CMD_HELP)}`\n🗂️ __Commands:__ `{len(apn)}`\n🗒️ __Page:__ {page + 1}/{veriler[0]}",
+                f"📌 **{hell_mention}**\n\n📝 __Plugins:__ `{len(CMD_HELP)}`\n📂 __Commands:__ `{len(apn)}`\n📃 __Page:__ {page + 1}/{veriler[0]}",
                 buttons=veriler[1],
                 link_preview=False,
             )
@@ -386,7 +386,7 @@ if Config.BOT_USERNAME and tbot:
         commands = event.data_match.group(2).decode("UTF-8")
         try:
             buttons = [
-                Button.inline(f"⚡ {cmd[0]} ⚡", data=f"commands[{commands}[{page}]]({cmd[0]})")
+                Button.inline(f"😈 {cmd[0]} 😈", data=f"commands[{commands}[{page}]]({cmd[0]})")
                 for cmd in CMD_HELP_BOT[commands]["commands"].items()
             ]
         except KeyError:
@@ -395,11 +395,11 @@ if Config.BOT_USERNAME and tbot:
             )
 
         buttons = [buttons[i : i + 2] for i in range(0, len(buttons), 2)]
-        buttons.append([Button.inline(f"📎 Send Plugin 📎", data=f"send({commands})")])
+        buttons.append([Button.inline(f"🗡️ Send Plugin 🗡️", data=f"send({commands})")])
         buttons.append([Button.inline(f"{hell_emoji} Main Menu {hell_emoji}", data=f"page({page})")])
         if event.query.user_id in auth:
             await event.edit(
-                f"**📗 File:**  `{commands}`\n**🔢 Commands:**  `{len(CMD_HELP_BOT[commands]['commands'])}`",
+                f"**📳 File:**  `{commands}`\n**📲 Commands:**  `{len(CMD_HELP_BOT[commands]['commands'])}`",
                 buttons=buttons,
                 link_preview=False,
             )
@@ -416,14 +416,14 @@ if Config.BOT_USERNAME and tbot:
         cmd = event.data_match.group(1).decode("UTF-8")
         page = int(event.data_match.group(2).decode("UTF-8"))
         commands = event.data_match.group(3).decode("UTF-8")
-        result = f"**📗 File:**  `{cmd}`\n"
+        result = f"**📳 File:**  `{cmd}`\n"
         if CMD_HELP_BOT[cmd]["info"]["info"] == "":
             if not CMD_HELP_BOT[cmd]["info"]["warning"] == "":
-                result += f"**⚠️ Warning:**  {CMD_HELP_BOT[cmd]['info']['warning']}\n"
+                result += f"**🔏 Warning:**  {CMD_HELP_BOT[cmd]['info']['warning']}\n"
         else:
             if not CMD_HELP_BOT[cmd]["info"]["warning"] == "":
-                result += f"**⚠️ Warning:**  {CMD_HELP_BOT[cmd]['info']['warning']}\n"
-            result += f"**ℹ️ Info:**  {CMD_HELP_BOT[cmd]['info']['info']}\n"
+                result += f"**🔒 Warning:**  {CMD_HELP_BOT[cmd]['info']['warning']}\n"
+            result += f"**🔑 Info:**  {CMD_HELP_BOT[cmd]['info']['info']}\n"
         sextraa = CMD_HELP_BOT[cmd]["extra"]
         if sextraa:
             a = sorted(sextraa.keys())
@@ -434,9 +434,9 @@ if Config.BOT_USERNAME and tbot:
         result += "\n"
         command = CMD_HELP_BOT[cmd]["commands"][commands]
         if command["params"] is None:
-            result += f"**🛠 Commands:**  `{HANDLER[:1]}{command['command']}`\n"
+            result += f"**🗝️ Commands:**  `{HANDLER[:1]}{command['command']}`\n"
         else:
-            result += f"**🛠 Commands:**  `{HANDLER[:1]}{command['command']} {command['params']}`\n"
+            result += f"**🗝️ Commands:**  `{HANDLER[:1]}{command['command']} {command['params']}`\n"
         if command["example"] is None:
             result += f"**💬 Explanation:**  `{command['usage']}`\n\n"
         else:
