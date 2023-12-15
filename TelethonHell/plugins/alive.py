@@ -77,12 +77,16 @@ async def _(event):
         uptime=uptime,
         ping=ping,
     )
-    alv_btn = [
-                [
-                    Button.url("𐏓 ⃪⃝💸 ꯭𝗖ᴜᴛᴇ᳢᪵•𝗗ᴇᴠɪ𝗟 ⃪آ͢آ🦅⃚⃮⃕⃔⃤ ꯭༎ࠫ⛧‌ٖٖٖٖٖٖٜٖٖٖٖ", f"https://t.me/ll_mxni_ll"),
-                    Button.url("⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸", f"https://t.me/II_BAD_BBY_II"),
-                ],
+    def alive_panel(_):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text=("⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸", f"https://t.me/II_BAD_BBY_II"),
+            )
+        ],
     ]
+    return buttons
+    
     await event.client.send_file(
         event.chat_id,
         file=PIC,
