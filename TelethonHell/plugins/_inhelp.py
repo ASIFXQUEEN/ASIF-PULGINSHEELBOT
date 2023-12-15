@@ -47,7 +47,7 @@ def button(page, modules):
     buttons.append(
         [
             Button.inline(f"⤟ Back {hell_emoji}", data=f"page({(max_pages - 1) if page == 0 else (page - 1)})"),
-            Button.inline(f"• ❌ •", data="close"),
+            Button.inline(f"• 📍 •", data="close"),
             Button.inline(f"{hell_emoji} Next ⤠", data=f"page({0 if page == (max_pages - 1) else (page + 1)})"),
         ]
     )
