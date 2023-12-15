@@ -73,7 +73,7 @@ if Config.BOT_USERNAME and tbot:
             if a:
                 help_pic = a.split(" ")[0]
             else:
-                help_pic = "https://te.legra.ph/file/5e5c71f8433e67f677a69.jpg"
+                help_pic = "https://telegra.ph/file/d750358e9918babcca077.mp4"
             help_msg = f"📌 **{hell_mention}**\n\n✉️ __ᴘʟᴜɢɪɴs:__ `{len(CMD_HELP)}` \n📂 __ᴄᴏᴍᴍᴀɴᴅs:__ `{len(apn)}`\n📃 __ᴘᴀɢᴇ:__ 1/{veriler[0]}"
             if help_pic == "DISABLE":
                 result = builder.article(
