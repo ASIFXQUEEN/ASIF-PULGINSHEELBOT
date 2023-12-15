@@ -386,7 +386,7 @@ if Config.BOT_USERNAME and tbot:
         commands = event.data_match.group(2).decode("UTF-8")
         try:
             buttons = [
-                Button.inline(f"😈 {cmd[0]} 😈", data=f"commands[{commands}[{page}]]({cmd[0]})")
+                Button.inline(f"🪄 {cmd[0]} 🪄", data=f"commands[{commands}[{page}]]({cmd[0]})")
                 for cmd in CMD_HELP_BOT[commands]["commands"].items()
             ]
         except KeyError:
