@@ -14,7 +14,7 @@ class Config(object):
     BUTTONS_IN_HELP = int(os.environ.get("BUTTONS_IN_HELP", 7))
     CURRENCY_API = os.environ.get("CURRENCY_API", None)
     DATABASE_URL = os.environ.get("DATABASE_URL", None)
-    EMOJI_IN_HELP = os.environ.get("EMOJI_IN_HELP", "✰")
+    EMOJI_IN_HELP = os.environ.get("EMOJI_IN_HELP", "ʕ •ᴥ• ʔ")
     G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", None)
     G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", None)
     GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", None)
