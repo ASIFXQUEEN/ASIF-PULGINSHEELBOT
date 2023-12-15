@@ -16,7 +16,7 @@ def validate_session(session):
         sys.exit()
 
 
-if Config.PBXBOT_SESSION:
+if Config.HellBOT_SESSION:
     session = StringSession(validate_session(Config.HELLBOT_SESSION))
 else:
     session = "PBXbot"
