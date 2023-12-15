@@ -186,6 +186,7 @@ if Config.BOT_USERNAME and tbot:
                         [Button.inline("📝 Request Approval", data="req")],
                         [Button.inline("🚫 Block", data="heheboi")],
                         [Button.inline("❓ Curious", data="pmclick")],
+                        [Button.inline("✔️ Approved", data=".a")],
                     ],
                     link_preview=False,
                 )
@@ -197,6 +198,7 @@ if Config.BOT_USERNAME and tbot:
                         [Button.inline("📝 Request Approval", data="req")],
                         [Button.inline("🚫 Block", data="heheboi")],
                         [Button.inline("❓ Curious", data="pmclick")],
+                        [Button.inline("✔️ Approved", data=".a")],
                     ],
                     link_preview=False,
                 )
