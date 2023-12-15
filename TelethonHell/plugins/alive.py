@@ -77,8 +77,8 @@ async def _(event):
         uptime=uptime,
         ping=ping,
     )
-    @app.on_message(filters.command("alive"))
-async def start(_, msg):
+    @app.on_message(filters.command("alive_panel"))
+def alive_panel(_):
     buttons = [
          [
             InlineKeyboardButton("😎 𝐔ѕтα∂  𝐉ι 😎", url=f"https://t.me/II_BAD_MUNDA_II")
