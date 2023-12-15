@@ -55,13 +55,6 @@ async def _(event):
     hell = await eor(event, "`Ruk Jra Sabar Karo 🫴🥺❤️‍🩹`")
     reply = await event.get_reply_message()
     uptime = await get_time((time.time() - StartTime))
-    
-    alv_btn = [
-                [
-                    Button.url("𐏓 ⃪⃝💸 ꯭𝗖ᴜᴛᴇ᳢᪵•𝗗ᴇᴠɪ𝗟 ⃪آ͢آ🦅⃚⃮⃕⃔⃤ ꯭༎ࠫ⛧‌ٖٖٖٖٖٖٜٖٖٖٖ", f"https://t.me/ll_mxni_ll"),
-                    Button.url("⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸", f"https://t.me/II_BAD_BBY_II"),
-                ],
-    ]
     name = gvarstat("ALIVE_NAME") or hell_user
     alive_temp = gvarstat("ALIVE_TEMPLATE") or ALIVE_TEMP
     a = gvarstat("ALIVE_PIC")
@@ -84,6 +77,12 @@ async def _(event):
         uptime=uptime,
         ping=ping,
     )
+    alv_btn = [
+                [
+                    Button.url("𐏓 ⃪⃝💸 ꯭𝗖ᴜᴛᴇ᳢᪵•𝗗ᴇᴠɪ𝗟 ⃪آ͢آ🦅⃚⃮⃕⃔⃤ ꯭༎ࠫ⛧‌ٖٖٖٖٖٖٜٖٖٖٖ", f"https://t.me/ll_mxni_ll"),
+                    Button.url("⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸", f"https://t.me/II_BAD_BBY_II"),
+                ],
+    ]
     await event.client.send_file(
         event.chat_id,
         file=PIC,
