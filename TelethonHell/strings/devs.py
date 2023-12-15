@@ -23,4 +23,4 @@ HARMFUL = [
     "HEROKU_API_KEY",
 ]
 
-INVALID_UPLOAD = ["Hell-TBot.session-journal", "Hell-TBot.session", "insta/settings.json"]
+INVALID_UPLOAD = ["PB-XBot.session-journal", "PB-XBot.session", "insta/settings.json"]
