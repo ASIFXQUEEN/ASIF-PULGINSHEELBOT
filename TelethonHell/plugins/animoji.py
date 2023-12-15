@@ -339,7 +339,7 @@ async def _(event):
 async def _(event):
     animation_interval = 1
     animation_ttl = range(12)
-    event = await eor(event, "start....")
+    event = await eor(event, "ᴍʏ ᴄʀᴜsʜ....")
     animation_chars = [
         "❤️",
         "🖤",
@@ -352,7 +352,7 @@ async def _(event):
         "💞",
         "❤️‍🔥",
         "❤️‍🩹",
-        "🇧 🇦 🇩  🇧 🇦 🇧 🇾 ",
+        "⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸 ",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
