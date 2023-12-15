@@ -519,7 +519,7 @@ async def get_character(query, page):
     img = data["image"]["large"]
     site_url = data["siteUrl"]
     desc = data["description"]
-    logo = "https://telegra.ph/file/2c546060b20dfd7c1ff2d.jpg"
+    logo = "https://graph.org/file/06c7c73faded13f743de4.jpg"
     descr = ""
     descr += f"<img src='{img}'/> \n"
     descr += desc
