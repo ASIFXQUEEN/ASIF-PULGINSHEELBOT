@@ -78,9 +78,9 @@ async def _(event):
         ping=ping,
     )
     def alive_panel(_):
-    buttons = [
-        [ 
-          InlineKeyboardButton("⎯꯭̽🇨🇦꯭꯭ ⃪Вα꯭∂ ꯭мυη∂α_꯭آآ꯭꯭꯭꯭⎯꯭ ꯭̽🌸", url=f""https://t.me/II_BAD_MUNDA_II")
+    buttons =[
+         [
+            InlineKeyboardButton("😎 𝐔ѕтα∂  𝐉ι 😎", url=f"https://t.me/II_BAD_MUNDA_II")
         ]]
     return buttons
     
