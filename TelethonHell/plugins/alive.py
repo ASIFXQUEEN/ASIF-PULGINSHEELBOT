@@ -12,7 +12,8 @@ from TelethonHell.plugins import *
 
 ALIVE_TEMP = """
 <b><i>🎈🔥𝐏ʙ 𝐗 ʙᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ🔥🎈</i></b>
-<b><i>↼ Øwñêr ⇀</i></b> : 『 {hell_mention} 』
+
+<b><i>↼ 𝐎𝒘𝔫єꋪ ⇀</i></b> : 『 {hell_mention} 』
 ╭──────────────
 ┣─ <b>» Telethon:</b> <i>{telethon_version}</i>
 ┣─ <b>» 𝐏ʙ𝐗ʙᴏᴛ:</b> <i>{hellbot_version}</i>
@@ -54,6 +55,7 @@ async def _(event):
     hell = await eor(event, "`Ruk Jra Sabar Karo 🫴🥺❤️‍🩹`")
     reply = await event.get_reply_message()
     uptime = await get_time((time.time() - StartTime))
+    
     alv_btn = [
                 [
                     Button.url("𐏓 ⃪⃝💸 ꯭𝗖ᴜᴛᴇ᳢᪵•𝗗ᴇᴠɪ𝗟 ⃪آ͢آ🦅⃚⃮⃕⃔⃤ ꯭༎ࠫ⛧‌ٖٖٖٖٖٖٜٖٖٖٖ", f"https://t.me/ll_mxni_ll"),
