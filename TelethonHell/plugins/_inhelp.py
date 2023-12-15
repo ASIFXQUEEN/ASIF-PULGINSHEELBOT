@@ -20,7 +20,7 @@ else:
 alive_txt = """{}\n
 <b><i>🏅 𝙱𝚘𝚝 𝚂𝚝𝚊𝚝𝚞𝚜 🏅</b></i>
 <b>Telethon ≈</b>  <i>{}</i>
-<b>Hêllẞø† ≈</b>  <i>{}</i>
+<b>𝐏ʙ𝐗ʙᴏᴛ ≈</b>  <i>{}</i>
 <b>Uptime ≈</b>  <i>{}</i>
 <b>Abuse ≈</b>  <i>{}</i>
 <b>Sudo ≈</b>  <i>{}</i>
@@ -109,7 +109,7 @@ if Config.BOT_USERNAME and tbot:
                     Button.url(f"{alive_name}", f"tg://openmessage?user_id={ForGo10God}")
                 ],
                 [
-                    Button.url("My Channel", f"https://t.me/{my_channel}"),
+                    Button.url("🍁𝐃ᴇᴠᴇʟᴏᴘᴇʀ🍁", f"https://t.me/II_BAD_BBY_II"),
                     Button.url("My Group", f"https://t.me/{my_group}"),
                 ],
             ]
@@ -122,7 +122,7 @@ if Config.BOT_USERNAME and tbot:
                         pic_list.append(c)
                 PIC = random.choice(pic_list)
             else:
-                PIC = "https://te.legra.ph/file/ea9e11f7c9db21c1b8d5e.mp4"
+                PIC = "https://te.legra.ph/file/3f030d63ebf8533306927.jpg"
             if PIC and PIC.endswith((".jpg", ".png")):
                 result = builder.photo(
                     PIC,
@@ -135,7 +135,7 @@ if Config.BOT_USERNAME and tbot:
                 result = builder.document(
                     PIC,
                     text=he_ll,
-                    title="HellBot Alive",
+                    title="𝐏ʙ𝐗ʙᴏᴛ Alive",
                     buttons=alv_btn,
                     link_preview=False,
                     parse_mode="HTML",
@@ -143,7 +143,7 @@ if Config.BOT_USERNAME and tbot:
             else:
                 result = builder.article(
                     text=he_ll,
-                    title="HellBot Alive",
+                    title="𝐏ʙ𝐗ʙᴏᴛ Alive",
                     buttons=alv_btn,
                     link_preview=False,
                     parse_mode="HTML",
