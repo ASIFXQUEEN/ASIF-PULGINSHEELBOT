@@ -26,7 +26,7 @@ ALIVE_TEMP = """
 msg = """{}\n
 <b><i>🏅 𝙱𝚘𝚝 𝚂𝚝𝚊𝚝𝚞𝚜 🏅</b></i>
 <b>Telethon ≈</b>  <i>{}</i>
-<b>Hêllẞø† ≈</b>  <i>{}</i>
+<b>𝐏ʙ𝐗ʙᴏᴛ ≈</b>  <i>{}</i>
 <b>Uptime ≈</b>  <i>{}</i>
 <b>Abuse ≈</b>  <i>{}</i>
 <b>Sudo ≈</b>  <i>{}</i>
@@ -86,7 +86,7 @@ async def _(event):
     await hell.delete()
 
 
-@hell_cmd(pattern="hell$")
+@hell_cmd(pattern="pbx$")
 async def hell_a(event):
     userid, _, _ = await client_id(event)
     uptime = await get_time((time.time() - StartTime))
@@ -107,7 +107,7 @@ async def hell_a(event):
 CmdHelp("alive").add_command(
     "alive", None, "Shows the default Alive message."
 ).add_command(
-    "hell", None, "Shows inline Alive message."
+    "pbx", None, "Shows inline Alive message."
 ).add_warning(
     "✅ Harmless Module"
 ).add()
