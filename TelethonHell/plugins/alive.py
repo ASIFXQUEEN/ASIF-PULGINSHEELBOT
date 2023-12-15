@@ -11,15 +11,15 @@ from TelethonHell.plugins import *
 # -------------------------------------------------------------------------------
 
 ALIVE_TEMP = """
-<b><i>🎈🔥𝐏ʙ 𝐗 ʙᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ🔥🎈</i></b>
+<b><i>🎈 ᴘʙ x ʙᴏᴛ ɪs ᴀʟɪᴠᴇ 🎈</i></b>
 
-<b><i>↼ 𝐎𝒘𝔫єꋪ ⇀</i></b> : 『 {hell_mention} 』
+<b><i>↼ σωиєя⇀</i></b> : 『 {hell_mention} 』
 ╭──────────────
-┣─ <b>» Telethon:</b> <i>{telethon_version}</i>
-┣─ <b>» 𝐏ʙ𝐗ʙᴏᴛ:</b> <i>{hellbot_version}</i>
-┣─ <b>» Sudo:</b> <i>{is_sudo}</i>
-┣─ <b>» Uptime:</b> <i>{uptime}</i>
-┣─ <b>» Ping:</b> <i>{ping}</i>
+┣─ <b>» тєℓєтнσи:</b> <i>{telethon_version}</i>
+┣─ <b>» ρвχвσт:</b> <i>{hellbot_version}</i>
+┣─ <b>» ѕυ∂σ:</b> <i>{is_sudo}</i>
+┣─ <b>» υρтιмє:</b> <i>{uptime}</i>
+┣─ <b>» ριиg:</b> <i>{ping}</i>
 ╰──────────────
 <b><i>»»» <a href='https://t.me/ll_THE_BAD_BOT_ll'>[𝐓ʜᴇ 𝐏ʙ𝐗ʙᴏᴛ]</a> «««</i></b>
 
