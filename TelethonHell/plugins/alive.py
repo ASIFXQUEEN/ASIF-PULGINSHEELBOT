@@ -79,12 +79,9 @@ async def _(event):
     )
     def alive_panel(_):
     buttons = [
-        [
-            InlineKeyboardButton(
+        InlineKeyboardButton(
                 text=("⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸", f"https://t.me/II_BAD_BBY_II"),
-            )
-        ],
-    ]
+            ]
     return buttons
     
     await event.client.send_file(
