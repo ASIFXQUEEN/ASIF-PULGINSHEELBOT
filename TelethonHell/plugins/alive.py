@@ -23,8 +23,10 @@ ALIVE_TEMP = """
 ╰──────────────
 <b><i>»»» <a href='https://t.me/ll_THE_BAD_BOT_ll'>[𝐓ʜᴇ 𝐏ʙ𝐗ʙᴏᴛ]</a> «««</i></b>
 
-<b><i>»»» <a href='https://t.me/II_BAD_MUNDA_II'>[⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸]</a> «««</i></b>
-<b><i>»»» <a href='https://t.me/ll_mxni_ll'>[𐏓 ⃪⃝💸 ꯭𝗖ᴜᴛᴇ᳢᪵•𝗗ᴇᴠɪ𝗟 ⃪آ͢آ🦅⃚⃮⃕⃔⃤ ꯭༎ࠫ⛧‌ٖٖٖٖٖٖٜٖٖٖٖ]</a> «««</i></b>
+
+<b><i>⛧ <a href='https://t.me/II_BAD_MUNDA_II'>[⎯꯭̽🇨🇦꯭꯭ ʙᴀᴅ ᴍᴜɴᴅᴀ🌸]</a> ⛧</i></b>
+
+<b><i>⛧ <a href='https://t.me/ll_mxni_ll'>[𐏓 ⃪⃝💸 ꯭ᴄᴜᴛᴇ ᴅᴇᴠɪʟ🦅⃕⃔]</a> ⛧</i></b>
 """
 
 msg = """{}\n
