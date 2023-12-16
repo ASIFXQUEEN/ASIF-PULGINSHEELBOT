@@ -198,11 +198,11 @@ async def _(event):
     
     gmsg = f"✌️🏻 {hell_mention} **𝐇ᴀᴛʜ 𝐌ᴇʀᴀ 𝐆ᴜɴ🔫𝐏ᴀʀ [{name}](tg://user?id={userid}) 𝐉ᴀɪsᴇ 𝐊ᴏ💪🏻𝐑ᴀᴋʜ 𝐓ᴀ 𝐇ᴜ 𝐋ᴜɴᴅ🖕🏻𝐏ᴀʀ 😈**\n\n❌ Added to Gban Watch!!\n**📃 Ma chudva [{name}](tg://user?id={userid})Total Chats :**  `{chats}`"
     if reason != "":
-        gmsg += f"\n**🔰 Reason :**  `{reason}`"
+        gmsg += f"\n**📝 Reason :**  `{reason}`"
     
-    ogmsg = f"**📍 Victim:** [{name}](tg://user?id={userid}) \n**📍 Chats:** `{chats}` \n**📍 Gban By:** {hell_mention}\n\n**📍 User Added to Gban Watch!!**"
+    ogmsg = f"**❌ Victim:** [{name}](tg://user?id={userid}) \n**❌ Chats:** `{chats}` \n**📍 Gban By:** {hell_mention}\n\n**📍 User Added to Gban Watch!!**"
     if reason != "":
-        ogmsg += f"\n**📍 Reason:** `{reason}`"
+        ogmsg += f"\n**❌ Reason:** `{reason}`"
     
     if Config.ABUSE == "ON":
         await event.client.send_message(event.chat_id, gmsg, file=gbpic, reply_to=reply)
@@ -243,8 +243,8 @@ async def _(event):
                 pass
 
     ungbaner(userid)
-    ogmsg = f"**📍 Victim:** [{name}](tg://user?id={userid}) \n**📍 Chats:** `{chats}` \n**📍 UnGban By:** {hell_mention}\n\n**📍 User removed from Gban Watch!!**"
-    await hell.edit(f"__**🔥 UnGban Completed !!**__ \n\n{ogmsg}")
+    ogmsg = f"**❌ Victim:** [{name}](tg://user?id={userid}) \n**❌ Chats:** `{chats}` \n**📍 UnGban By:** {hell_mention}\n\n**📍 User removed from Gban Watch!!**"
+    await hell.edit(f"__**🥵 Chil baby chil !!**__ \n\n{ogmsg}")
     await event.client.send_message(
         Config.LOGGER_ID,
         f"#UNGBAN \n\n{ogmsg}",
