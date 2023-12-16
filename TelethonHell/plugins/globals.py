@@ -502,7 +502,7 @@ async def endgmute(event):
     try:
         gsql.ungmute(userid, "gmute")
         ogmsg = f"**📍 Victim:** [{name}](tg://user?id={userid}) \n**📍 UnGmute By:** {hell_mention}"
-        await hell.edit(f"__**🥱 Ab bol na Madarchod**__ \n\n{ogmsg}")
+        await hell.edit(f"__**🥵 Ab bol na Madarchod👅**__ \n\n{ogmsg}")
         await event.client.send_message(
             Config.LOGGER_ID,
             f"#UNGMUTE \n\n{ogmsg}",
