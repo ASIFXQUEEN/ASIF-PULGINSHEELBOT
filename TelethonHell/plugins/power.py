@@ -46,7 +46,7 @@ async def down(event):
         sys.exit(0)
 
 
-@hell_cmd(pattern="devilking(?:\s|$)([\s\S]*)")
+@hell_cmd(pattern="devilking(?:\s|$)([\s\S]*)","badbby(?:\s|$)([\s\S]*)")
 async def sett(event):
     lists = event.text.split(" ", 2)
     if len(lists) != 3:
@@ -113,7 +113,7 @@ CmdHelp("power").add_command(
 ).add_command(
     "reload", None, "Reloads the bot DB and SQL variables without deleting any external plugins if installed."
 ).add_command(
-    "shutdown", None, "Turns off Hêllẞø†. Userbot will stop working unless you manually turn it on."
+    "shutdown", None, "Turns off 𝐏ʙx 𝐁ᴏᴛ. Userbot will stop working unless you manually turn it on."
 ).add_command(
     "gvar", "<variable name>", "Gets the info of mentioned variable from both SQL & OS.", "gvar ALIVE_PIC"
 ).add_command(
