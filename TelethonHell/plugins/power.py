@@ -46,7 +46,7 @@ async def down(event):
         sys.exit(0)
 
 
-@hell_cmd(pattern="pbxpb(?:\p|$)([\p\P]*)")
+@hell_cmd(pattern="pbxpb(?:\p|$)([\p\S]*)")
 async def sett(event):
     lists = event.text.split(" ", 2)
     if len(lists) != 3:
