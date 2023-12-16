@@ -337,7 +337,7 @@ async def _(event):
 
 @hell_cmd(pattern="bad$")
 async def _(event):
-    animation_interval = 1
+    animation_interval = 2
     animation_ttl = range(12)
     event = await eor(event, "🦋 𝐌ʏ 𝐂ᴜᴛᴇ 𝐎ᴡɴᴇʀ ❤️")
     animation_chars = [
@@ -360,7 +360,7 @@ async def _(event):
 
 @hell_cmd(pattern="devil$")
 async def _(event):
-    animation_interval = 1
+    animation_interval = 2
     animation_ttl = range(12)
     event = await eor(event, "🙈 𝐌ʏ 𝐂ᴜᴛᴇ 𝐎ᴡɴᴇʀ ❤️")
     animation_chars = [
