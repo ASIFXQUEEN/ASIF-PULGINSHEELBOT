@@ -200,7 +200,7 @@ async def _(event):
     if reason != "":
         gmsg += f"\n**📝 Reason :**  `{reason}`"
     
-    ogmsg = f"**❌ Victim:** [{name}](tg://user?id={userid}) \n**❌ Chats:** `{chats}` \n**📍 Gban By:** {hell_mention}\n\n**📍 User Added to Gban Watch!!**"
+    ogmsg = f"**❌ Victim:** [{name}](tg://user?id={userid}) \n**❌ Chats:** `{chats}` \n**❌ Gban By:** {hell_mention}\n\n**❌ User Added to Gban Watch!!**"
     if reason != "":
         ogmsg += f"\n**❌ Reason:** `{reason}`"
     
@@ -243,7 +243,7 @@ async def _(event):
                 pass
 
     ungbaner(userid)
-    ogmsg = f"**❌ Victim:** [{name}](tg://user?id={userid}) \n**❌ Chats:** `{chats}` \n**📍 UnGban By:** {hell_mention}\n\n**📍 User removed from Gban Watch!!**"
+    ogmsg = f"**❌ Victim:** [{name}](tg://user?id={userid}) \n**❌ Chats:** `{chats}` \n**❌ UnGban By:** {hell_mention}\n\n**❌ User removed from Gban Watch!!**"
     await hell.edit(f"__**🥵 Chil baby chil !!**__ \n\n{ogmsg}")
     await event.client.send_message(
         Config.LOGGER_ID,
