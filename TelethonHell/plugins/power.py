@@ -115,7 +115,7 @@ CmdHelp("power").add_command(
 ).add_command(
     "shutdown", None, "Turns off 𝐏ʙx 𝐁ᴏᴛ. Userbot will stop working unless you manually turn it on."
 ).add_command(
-    "sukhpbx", "<variable name> <variable value>", "Sets the variable to SQL variables without restarting the bot.", "svar ALIVE_PIC https://telegra.ph/file/57bfe195c88c5c127a653.jpg"
+    "sukhpbx", "<variable name> <variable value>", "Sets the variable to SQL variables without restarting the bot.", "svar ALIVE_PIC https://telegra.ph/file/db0dd26fce28950c46e20.mp4"
 ).add_command(
     "gvar", "<variable name>", "Gets the info of mentioned variable from both SQL & OS.", "gvar ALIVE_PIC"
 ).add_command(
