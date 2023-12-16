@@ -460,5 +460,7 @@ CmdHelp("animoji").add_command(
 ).add_command(
     "bad", None, "Use and see"
 ).add_command(
+    "devil", None, "Use and see"
+).add_command(
     "theart", None, "Hearts Animation."
 ).add()
