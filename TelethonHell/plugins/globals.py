@@ -196,7 +196,7 @@ async def _(event):
     else:
         gbpic = cjb
     
-    gmsg = f"✌️🏻 {hell_mention} **𝐇ᴀᴛʜ 𝐌ᴇʀᴀ 𝐆ᴜɴ🔫𝐏ᴀʀ [{name}](tg://user?id={userid}) 𝐉ᴀɪsᴇ 𝐊ᴏ💪🏻𝐑ᴀᴋʜ 𝐓ᴀ 𝐇ᴜ 𝐋ᴜɴᴅ🖕🏻𝐏ᴀʀ 😈**\n\n❌ Added to Gban Watch!!\n**📃 Ma chudva**{hell_mention}**Total Chats :**  `{chats}`"
+    gmsg = f"✌️🏻 {hell_mention} **𝐇ᴀᴛʜ 𝐌ᴇʀᴀ 𝐆ᴜɴ🔫𝐏ᴀʀ [{name}](tg://user?id={userid}) 𝐉ᴀɪsᴇ 𝐊ᴏ💪🏻𝐑ᴀᴋʜ 𝐓ᴀ 𝐇ᴜ 𝐋ᴜɴᴅ🖕🏻𝐏ᴀʀ 😈**\n\n❌ Added to Gban Watch!!\n**📃 Ma chudva [{name}](tg://user?id={userid})Total Chats :**  `{chats}`"
     if reason != "":
         gmsg += f"\n**🔰 Reason :**  `{reason}`"
     
