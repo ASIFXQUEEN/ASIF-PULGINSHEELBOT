@@ -46,18 +46,18 @@ async def down(event):
         sys.exit(0)
 
 
-@hell_cmd(pattern="svar(?:\s|$)([\s\S]*)")
+@hell_cmd(pattern="pbxpb(?:\p|$)([\p\P]*)")
 async def sett(event):
     lists = event.text.split(" ", 2)
     if len(lists) != 3:
-        return await parse_error(event, f"__Invalid Syntax !!__ \n__Try:__ `{hl}svar VARIABLE_NAME variable value`", False)
+        return await parse_error(event, f"__Invalid Syntax !!__ \n__Try:__ `{hl}pbxpb VARIABLE_NAME variable value`", False)
     var = lists[1].strip().upper()
     val = lists[2].strip()
     hell = await eor(event, f"**Setting variable** `{var}` **as** `{val}`")
     if var == "":
-        return await parse_error(hell, f"__Invalid Syntax !!__ \n__Try:__ `{hl}svar VARIABLE_NAME variable_value`", False)
+        return await parse_error(hell, f"__Invalid Syntax !!__ \n__Try:__ `{hl}pbxpb VARIABLE_NAME variable_value`", False)
     elif val == "":
-        return await parse_error(hell, f"__Invalid Syntax !!__ \n__Try:__ `{hl}svar VARIABLE_NAME variable_value`", False)
+        return await parse_error(hell, f"__Invalid Syntax !!__ \n__Try:__ `{hl}pbxpb VARIABLE_NAME variable_value`", False)
     if var not in db_config:
         return await parse_error(hell, f"__No DB Variable:__ `{var}`. \n__Check spelling or get full list by__ `{hl}vars -db`", False)
     try:
@@ -115,7 +115,7 @@ CmdHelp("power").add_command(
 ).add_command(
     "shutdown", None, "Turns off Hêllẞø†. Userbot will stop working unless you manually turn it on."
 ).add_command(
-    "badbby", "<variable name> <variable value>", "Sets the variable to SQL variables without restarting the bot.", "svar ALIVE_PIC https://telegra.ph/file/57bfe195c88c5c127a653.jpg"
+    "pbxpb", "<variable name> <variable value>", "Sets the variable to SQL variables without restarting the bot.", "svar ALIVE_PIC https://telegra.ph/file/57bfe195c88c5c127a653.jpg"
 ).add_command(
     "gvar", "<variable name>", "Gets the info of mentioned variable from both SQL & OS.", "gvar ALIVE_PIC"
 ).add_command(
