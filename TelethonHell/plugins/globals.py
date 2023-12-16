@@ -472,7 +472,7 @@ async def gm(event):
     try:
         gsql.gmute(userid, "gmute")
         if Config.ABUSE == "ON":
-            await event.client.send_message(event.chat_id, f"Chup [lovde](tg://user?id={userid})", file=shhh, reply_to=reply)
+            await event.client.send_message(event.chat_id, f"Chup [ᴄʜᴜᴘ ʙʜᴇɴ ᴋᴇ ʟᴏᴅᴇ](tg://user?id={userid})", file=shhh, reply_to=reply)
             await hell.delete()
         else:
             await hell.edit(f"__**🔥 GMute Completed !!**__ \n\n{ogmsg}")
