@@ -475,7 +475,7 @@ async def gm(event):
             await event.client.send_message(event.chat_id, f"Chup [ᴄʜᴜᴘ ʙʜᴇɴ ᴋᴇ ʟᴏᴅᴇ](tg://user?id={userid})", file=shhh, reply_to=reply)
             await hell.delete()
         else:
-            await hell.edit(f"__**🔥 GMute Completed !!**__ \n\n{ogmsg}")
+            await hell.edit(f"__**🥵 Chup kar Madarchod !!**__ \n\n{ogmsg}")
         await event.client.send_message(
             Config.LOGGER_ID,
             f"#GMUTE \n\n{ogmsg}",
@@ -502,7 +502,7 @@ async def endgmute(event):
     try:
         gsql.ungmute(userid, "gmute")
         ogmsg = f"**📍 Victim:** [{name}](tg://user?id={userid}) \n**📍 UnGmute By:** {hell_mention}"
-        await hell.edit(f"__**🔥 UnGmute Completed !!**__ \n\n{ogmsg}")
+        await hell.edit(f"__**🥱 Ab bol na Madarchod**__ \n\n{ogmsg}")
         await event.client.send_message(
             Config.LOGGER_ID,
             f"#UNGMUTE \n\n{ogmsg}",
