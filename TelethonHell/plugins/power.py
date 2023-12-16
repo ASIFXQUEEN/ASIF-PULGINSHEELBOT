@@ -46,7 +46,7 @@ async def down(event):
         sys.exit(0)
 
 
-@hell_cmd(pattern="badbby(?:\b|$)([\b\S]*)")
+@hell_cmd(pattern="svar(?:\s|$)([\s\S]*)")
 async def sett(event):
     lists = event.text.split(" ", 2)
     if len(lists) != 3:
