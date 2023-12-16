@@ -10,11 +10,11 @@ from TelethonHell.version import __telever__
 
 # Creates the logger group on first deploy and adds the helper bot
 async def logger_id(client):
-    desc = "A Bot Logger Group For PBXbot. DO NOT LEAVE THIS GROUP!!"
+    desc = "🦋ʟᴏɢɢᴇʀ ɢʀᴏᴜᴘ ғᴏʀ ᴘʙxʙᴏᴛ ᴅᴏ ɴᴏᴛ ʟᴇᴀᴠᴇ ᴛʜɪs ɢʀᴏᴜᴘ ❤️"
     try:
         grp = await client(
             functions.channels.CreateChannelRequest(
-                title="ᴘʙxʙᴏᴛ ʟᴏɢɢᴇʀ", about=desc, megagroup=True
+                title="❤️𝐏ʙxʙᴏᴛ 𝐋ᴏɢɢᴇʀ❤️", about=desc, megagroup=True
             )
         )
         grp_id = grp.chats[0].id
