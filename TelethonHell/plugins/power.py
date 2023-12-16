@@ -46,18 +46,18 @@ async def down(event):
         sys.exit(0)
 
 
-@hell_cmd(pattern="pbxpb(?:\p|$)([\p\S]*)")
+@hell_cmd(pattern="sukhpbx(?:\s|$)([\s\S]*)")
 async def sett(event):
     lists = event.text.split(" ", 2)
     if len(lists) != 3:
-        return await parse_error(event, f"__Invalid Syntax !!__ \n__Try:__ `{hl}pbxpb VARIABLE_NAME variable value`", False)
+        return await parse_error(event, f"__Invalid Syntax !!__ \n__Try:__ `{hl}sukhpbx VARIABLE_NAME variable value`", False)
     var = lists[1].strip().upper()
     val = lists[2].strip()
     hell = await eor(event, f"**Setting variable** `{var}` **as** `{val}`")
     if var == "":
-        return await parse_error(hell, f"__Invalid Syntax !!__ \n__Try:__ `{hl}pbxpb VARIABLE_NAME variable_value`", False)
+        return await parse_error(hell, f"__Invalid Syntax !!__ \n__Try:__ `{hl}sukhpbx VARIABLE_NAME variable_value`", False)
     elif val == "":
-        return await parse_error(hell, f"__Invalid Syntax !!__ \n__Try:__ `{hl}pbxpb VARIABLE_NAME variable_value`", False)
+        return await parse_error(hell, f"__Invalid Syntax !!__ \n__Try:__ `{hl}sukhpbx VARIABLE_NAME variable_value`", False)
     if var not in db_config:
         return await parse_error(hell, f"__No DB Variable:__ `{var}`. \n__Check spelling or get full list by__ `{hl}vars -db`", False)
     try:
