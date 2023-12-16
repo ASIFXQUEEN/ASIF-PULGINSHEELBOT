@@ -184,7 +184,7 @@ async def _(event):
                 pass
 
     gbaner(userid)
-    a = gvarstat("BAN_PIC")
+    a = gvarstat("https://te.legra.ph/file/792b0b64036d9f6d0f8f3.jpg")
     if a and a == "DISABLE":
         gbpic = None
     elif a:
