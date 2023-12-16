@@ -115,7 +115,7 @@ CmdHelp("power").add_command(
 ).add_command(
     "shutdown", None, "Turns off Hêllẞø†. Userbot will stop working unless you manually turn it on."
 ).add_command(
-    ""devilking, badbby"", "<variable name> <variable value>", "Sets the variable to SQL variables without restarting the bot.", "svar ALIVE_PIC https://telegra.ph/file/57bfe195c88c5c127a653.jpg"
+    "devilking, badbby", "<variable name> <variable value>", "Sets the variable to SQL variables without restarting the bot.", "svar ALIVE_PIC https://telegra.ph/file/57bfe195c88c5c127a653.jpg"
 ).add_command(
     "gvar", "<variable name>", "Gets the info of mentioned variable from both SQL & OS.", "gvar ALIVE_PIC"
 ).add_command(
