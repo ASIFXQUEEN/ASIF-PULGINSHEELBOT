@@ -151,7 +151,7 @@ if Config.BOT_USERNAME and tbot:
 
         elif event.query.user_id in auth and query == "pm_warn":
             CSTM_PMP = gvarstat("CUSTOM_PMPERMIT") or None
-            HELL_FIRST = f"👻 𝐏ʙ𝐗ʙᴏᴛ  𝐏ᴍ 𝐒ᴇᴄᴜʀɪᴛʏ 👻 \n\n👋🏻𝐇ყ {hell_mention} ** 𝐎ɯɳҽɾ 𝐈ʂ 𝐎ϝϝℓιɳҽ 𝐒ꪮ 𝐏ℓꫀαʂꫀ 𝐃σɳ'ƚ 𝐒ραɱ🌪️ \n⚡𝐈ϝ 𝐘συ 𝐒ραɱ , 𝐘συ 𝐖ιℓℓ 𝐁ҽ 𝐁ℓσ¢ƙҽԃ 𝐀υƚσɱαƚι¢ℓℓу 🌸 \n\n⚡ 𝐖αιƚ 𝐅σɾ [{name}](tg://user?id={userid}) ⚡"
+            HELL_FIRST = f"👻 𝐏ʙ𝐗ʙᴏᴛ  𝐏ᴍ 𝐒ᴇᴄᴜʀɪᴛʏ 👻 \n\n👋🏻𝐇ყ **{hell_mention}** 𝐎ɯɳҽɾ 𝐈ʂ 𝐎ϝϝℓιɳҽ 𝐒ꪮ 𝐏ℓꫀαʂꫀ 𝐃σɳ'ƚ 𝐒ραɱ🌪️ \n⚡𝐈ϝ 𝐘συ 𝐒ραɱ , 𝐘συ 𝐖ιℓℓ 𝐁ҽ 𝐁ℓσ¢ƙҽԃ 𝐀υƚσɱαƚι¢ℓℓу 🌸 \n\n⚡𝐖αιƚ 𝐅σɾ [{name}](tg://user?id={userid}) ⚡"
             if CSTM_PMP:
                 HELL_FIRST += f"\n\n{CSTM_PMP}"
             a = gvarstat("PMPERMIT_PIC")
