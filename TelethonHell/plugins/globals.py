@@ -244,7 +244,7 @@ async def _(event):
 
     ungbaner(userid)
     ogmsg = f"**❌ Victim:** [{name}](tg://user?id={userid}) \n**❌ Chats:** `{chats}` \n**❌ UnGban By:** {hell_mention}\n\n**❌ User removed from Gban Watch!!**"
-    await hell.edit(f"__**🥵 Chil baby chil !!**__ \n\n{ogmsg}")
+    await hell.edit(f"__**🔑 Chil baby chil 🔓**__ \n\n{ogmsg}")
     await event.client.send_message(
         Config.LOGGER_ID,
         f"#UNGBAN \n\n{ogmsg}",
@@ -475,7 +475,7 @@ async def gm(event):
             await event.client.send_message(event.chat_id, f"😈𝐉αв {hell_mention} 𝐑αѕтє 𝐌є 𝐉α 𝐑αнα 𝐓нα 𝐑αѕтє🛣 𝐌є 𝐏∂є 𝐓нєн 𝐑σ∂є🪨 𝐂нυρ🤫 𝐊αя [{name}](tg://user?id={userid}) 𝐁нєи 𝐊є 𝐋σ∂є🚫", file=shhh, reply_to=reply)
             await hell.delete()
         else:
-            await hell.edit(f"__**🥵 Chup kar Madarchod !!**__ \n\n{ogmsg}")
+            await hell.edit(f"__**🥵 Chup kar Madarchod 👅**__ \n\n{ogmsg}")
         await event.client.send_message(
             Config.LOGGER_ID,
             f"#GMUTE \n\n{ogmsg}",
