@@ -681,6 +681,8 @@ CmdHelp("arts").add_command(
     "shitos", None, "Use and see"
 ).add_command(
     "dislike", None, "Use and see"
+ ).add_command(
+    "bad", None, "Use and see"
 ).add_command(
     "carry", "<text>", "send your text with carry art"
 ).add_command(
@@ -697,9 +699,6 @@ CmdHelp("arts").add_command(
     "china", "<text>", "Send your text in china art"
 ).add_command(
     "sshit", None, 'Send a art in "Ahh shit. Here we go again"'
-).add_command(
-    "bad", "<text>", "Send your text in bad art"
-).add_command(
 ).add_info(
     "Artistic Module"
 ).add_warning(
