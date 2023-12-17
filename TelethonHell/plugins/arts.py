@@ -646,7 +646,7 @@ async def _(shitos):
 async def _(dislike):
     await eor(dislike, T)
 
-@hell_cmd(pattern="bad$")
+@hell_cmd(pattern="bads$")
 async def _(bad):
     await eor(bad, X)
 
@@ -682,7 +682,7 @@ CmdHelp("arts").add_command(
 ).add_command(
     "dislike", None, "Use and see"
  ).add_command(
-    "bad", None, "Use and see"
+    "bads", <text>, "send your text with bad art"
 ).add_command(
     "carry", "<text>", "send your text with carry art"
 ).add_command(
