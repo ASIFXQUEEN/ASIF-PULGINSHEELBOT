@@ -68,7 +68,7 @@ async def install(event):
 CmdHelp("extra_plugin").add_command(
     "extdl", None, "Installs all plugins from the channal which id is in PLUGIN_CHANNEL Config"
 ).add_command(
-    "installall", "<channel/grp username>", "Installs all the plugins in provided channel / group. (May get floodwait error)"
+    "installall", "Installs all the plugins in provided channel / group. (May get floodwait error)"
 ).add_info(
     "Extra Plugins."
 ).add_warning(
