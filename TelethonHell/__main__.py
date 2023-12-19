@@ -73,7 +73,7 @@ async def start_hellbot():
         await plug_load("TelethonHell/plugins/*.py")
         await plug_channel(Hell, Config.PLUGIN_CHANNEL)
         LOGS.info("⚡ Your PBxBot Is Now Working ⚡")
-        LOGS.info("Join @ll_PBX_ll to get help regarding PBxBot.")
+        LOGS.info("Join @ll_THE_BAD_BOT_ll to get help regarding PBxBot.")
         LOGS.info(f"» Total Clients = {str(total)} «")
         await hell_is_on(total)
     except Exception as e:
