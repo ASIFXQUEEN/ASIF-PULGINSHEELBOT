@@ -10,11 +10,11 @@ from TelethonHell.version import __telever__
 
 # Creates the logger group on first deploy and adds the helper bot
 async def logger_id(client):
-    desc = "🦋ʟᴏɢɢᴇʀ ɢʀᴏᴜᴘ ғᴏʀ ᴘʙxʙᴏᴛ ᴅᴏ ɴᴏᴛ ʟᴇᴀᴠᴇ ᴛʜɪs ɢʀᴏᴜᴘ ❤️"
+    desc = "🦋ʟᴏɢɢᴇʀ ɢʀᴏᴜᴘ ғᴏʀ sᴛʀᴀɴɢᴇʀ ᴅᴏ ɴᴏᴛ ʟᴇᴀᴠᴇ ᴛʜɪs ɢʀᴏᴜᴘ ❤️"
     try:
         grp = await client(
             functions.channels.CreateChannelRequest(
-                title="𝐏ʙxʙᴏᴛ 𝐋ᴏɢɢᴇʀ", about=desc, megagroup=True
+                title="𝐒ᴛʀᴀɴɢᴇʀ 𝐋ᴏɢɢᴇʀ", about=desc, megagroup=True
             )
         )
         grp_id = grp.chats[0].id
@@ -83,14 +83,14 @@ async def start_msg(client, pic, version, total):
 <b><i>Sudo:</b></i> <code>{is_sudo}</code>
 <b><i>Library:</b></i> <code>Telethon - {__telever__}</code>
 
-<b><i>»» <u><a href='https://t.me/ll_THE_BAD_BOT_ll'>ᴘʙxʙᴏᴛ</a></u> ««</i></b>
+<b><i>»» <u><a href='https://t.me/SHIVANSH474'>𝐒ᴛʀᴀɴɢᴇʀ</a></u> ««</i></b>
 """
     await client.send_file(
         Config.LOGGER_ID,
         pic,
         caption=text,
         parse_mode="HTML",
-        buttons=[[Button.url("ᴘʙxʙᴏᴛ 𝐒ᴜᴘᴘᴏʀᴛ", "https://t.me/ll_THE_BAD_BOT_ll")]],
+        buttons=[[Button.url("𝐒ᴛʀᴀɴɢᴇʀ 𝐒ᴜᴘᴘᴏʀᴛ", "https://t.me/SHIVANSH474")]],
     )
 
 
