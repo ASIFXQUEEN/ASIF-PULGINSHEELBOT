@@ -20,7 +20,7 @@ else:
 alive_txt = """{}\n
 <b><i>🏅 𝙱𝚘𝚝 𝚂𝚝𝚊𝚝𝚞𝚜 🏅</b></i>
 <b>Telethon ≈</b>  <i>{}</i>
-<b>𝐏ʙ𝐗ʙᴏᴛ ≈</b>  <i>{}</i>
+<b>𝐒ᴛʀᴀɴɢᴇʀ ≈</b>  <i>{}</i>
 <b>Uptime ≈</b>  <i>{}</i>
 <b>Abuse ≈</b>  <i>{}</i>
 <b>Sudo ≈</b>  <i>{}</i>
@@ -73,7 +73,7 @@ if Config.BOT_USERNAME and tbot:
             if a:
                 help_pic = a.split(" ")[0]
             else:
-                help_pic = "https://telegra.ph/file/d750358e9918babcca077.mp4"
+                help_pic = "https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg"
             help_msg = f"📌 **{hell_mention}**\n\n✉️ __ᴘʟᴜɢɪɴs:__ `{len(CMD_HELP)}` \n📂 __ᴄᴏᴍᴍᴀɴᴅs:__ `{len(apn)}`\n📃 __ᴘᴀɢᴇ:__ 1/{veriler[0]}"
             if help_pic == "DISABLE":
                 result = builder.article(
@@ -93,13 +93,13 @@ if Config.BOT_USERNAME and tbot:
                 result = builder.document(
                     help_pic,
                     text=help_msg,
-                    title="𝐏ʙ𝐗ʙᴏᴛ Alive",
+                    title="𝐒ᴛʀᴀɴɢᴇʀ Alive",
                     buttons=veriler[1],
                     link_preview=False,
                 )
         elif event.query.user_id in auth and query == "alive":
             uptime = await get_time((time.time() - StartTime))
-            alive_msg = gvarstat("ALIVE_MSG") or "»»» <b>𝐏ʙ𝐗ʙᴏᴛ 𝐈s 𝐎ɴʟɪɴᴇ</b> «««"
+            alive_msg = gvarstat("ALIVE_MSG") or "»»» <b>𝐒ᴛʀᴀɴɢᴇʀ 𝐈s 𝐎ɴʟɪɴᴇ</b> «««"
             alive_name = gvarstat("ALIVE_NAME") or HELL_USER
             he_ll = alive_txt.format(
                 alive_msg, telethon_version, hellbot_version, uptime, abuse_m, is_sudo
@@ -109,7 +109,7 @@ if Config.BOT_USERNAME and tbot:
                     Button.url(f"{alive_name}", f"tg://openmessage?user_id={ForGo10God}")
                 ],
                 [
-                    Button.url("🍁𝐃ᴇᴠᴇʟᴏᴘᴇʀ🍁", f"https://t.me/II_BAD_BBY_II"),
+                    Button.url("🍁𝐃ᴇᴠᴇʟᴏᴘᴇʀ🍁", f"https://t.me/SHIVANSH474"),
                     Button.url("My Group", f"https://t.me/{my_group}"),
                 ],
             ]
@@ -122,7 +122,7 @@ if Config.BOT_USERNAME and tbot:
                         pic_list.append(c)
                 PIC = random.choice(pic_list)
             else:
-                PIC = "https://te.legra.ph/file/3f030d63ebf8533306927.jpg"
+                PIC = "https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg"
             if PIC and PIC.endswith((".jpg", ".png")):
                 result = builder.photo(
                     PIC,
@@ -135,7 +135,7 @@ if Config.BOT_USERNAME and tbot:
                 result = builder.document(
                     PIC,
                     text=he_ll,
-                    title="𝐏ʙ𝐗ʙᴏᴛ Alive",
+                    title="𝐒ᴛʀᴀɴɢᴇʀ Alive",
                     buttons=alv_btn,
                     link_preview=False,
                     parse_mode="HTML",
@@ -143,7 +143,7 @@ if Config.BOT_USERNAME and tbot:
             else:
                 result = builder.article(
                     text=he_ll,
-                    title="𝐏ʙ𝐗ʙᴏᴛ Alive",
+                    title="𝐒ᴛʀᴀɴɢᴇʀ Alive",
                     buttons=alv_btn,
                     link_preview=False,
                     parse_mode="HTML",
@@ -151,7 +151,7 @@ if Config.BOT_USERNAME and tbot:
 
         elif event.query.user_id in auth and query == "pm_warn":
             CSTM_PMP = gvarstat("CUSTOM_PMPERMIT") or None
-            HELL_FIRST = f"👻 𝐏ʙ𝐗ʙᴏᴛ  𝐏ᴍ 𝐒ᴇᴄᴜʀɪᴛʏ 👻 \n\n👋🏻𝐇ყ {hell_mention}  \n❤️𝐎ɯɳҽɾ 𝐈ʂ 𝐎ϝϝℓιɳҽ 𝐒ꪮ 𝐏ℓꫀαʂꫀ 𝐃σɳ'ƚ 𝐒ραɱ🌪️ \n⚡𝐈ϝ 𝐘συ 𝐒ραɱ , 𝐘συ 𝐖ιℓℓ 𝐁ҽ 𝐁ℓσ¢ƙҽԃ 𝐀υƚσɱαƚι¢ℓℓу 🌸 \n\n🦋 𝐖αιт 𝐅σя  𝐌у 𝐂υтє [𝐎ωиєя](tg://settings) ❤️"
+            HELL_FIRST = f"👻 𝐒ᴛʀᴀɴɢᴇʀ  𝐏ᴍ 𝐒ᴇᴄᴜʀɪᴛʏ 👻 \n\n👋🏻𝐇ყ {hell_mention}  \n❤️𝐎ɯɳҽɾ 𝐈ʂ 𝐎ϝϝℓιɳҽ 𝐒ꪮ 𝐏ℓꫀαʂꫀ 𝐃σɳ'ƚ 𝐒ραɱ🌪️ \n⚡𝐈ϝ 𝐘συ 𝐒ραɱ , 𝐘συ 𝐖ιℓℓ 𝐁ҽ 𝐁ℓσ¢ƙҽԃ 𝐀υƚσɱαƚι¢ℓℓу 🌸 \n\n🦋 𝐖αιт 𝐅σя  𝐌у 𝐂υтє [𝐎ωиєя](tg://settings) ❤️"
             if CSTM_PMP:
                 HELL_FIRST += f"\n\n{CSTM_PMP}"
             a = gvarstat("PMPERMIT_PIC")
@@ -165,7 +165,7 @@ if Config.BOT_USERNAME and tbot:
                         pic_list.append(c)
                 PIC = random.choice(pic_list)
             else:
-                PIC = "https://telegra.ph/file/d85dcfe739259946ea344.jpg"
+                PIC = "https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg"
             if PIC and PIC.endswith((".jpg", ".png")):
                 result = builder.photo(
                     file=PIC,
@@ -206,28 +206,28 @@ if Config.BOT_USERNAME and tbot:
         elif event.query.user_id in auth and query == "repo":
             result = builder.article(
                 title="Repository",
-                text=f"**👻𝐏ʙ𝐗ʙᴏᴛ👻**",
+                text=f"**👻𝐒ᴛʀᴀɴɢᴇʀ👻**",
                 buttons=[
-                    [Button.url("📑 𝐑ᴇᴘᴏ 📑", "https://github.com/MXNIHACKER/DevilXUser")],
-                    [Button.url("𝐏ʙ𝐗ʙᴏᴛ 𝐍ᴇᴛᴡᴏʀᴋ", "https://t.me/ll_THE_BAD_BOT_ll")],
+                    [Button.url("📑 𝐑ᴇᴘᴏ 📑", "https://github.com/SHIVANSH474/SHUKLA-USERBOT")],
+                    [Button.url("𝐒ᴛʀᴀɴɢᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ", "https://t.me/SHIVANSH474")],
                 ],
             )
 
         else:
             result = builder.article(
-                "@ll_THE_BAD_BOT_ll",
-                text="""**Hey! This is [Hêllẞø†](https://t.me/its_hellbot) \nYou can know more about me from the links given below 👇**""",
+                "@SHIVANSH474",
+                text="""**Hey! This is [𝐒ᴛʀᴀɴɢᴇʀ†](https://t.me/SHIVANSH474) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        Button.url("• Updates •", "https://t.me/Its_HellBot"),
-                        Button.url("• Chat •", "https://t.me/hellbot_chats"),
+                        Button.url("• Updates •", "https://t.me/SHIVANSH474"),
+                        Button.url("• Chat •", "https://t.me/mastiwithfriendsx"),
                     ],
                     [
-                        Button.url("• Repo •", "https://github.com/The-HellBot/HellBot"),
-                        Button.url("• Docs •", "https://hellbot.tech"),
+                        Button.url("• Repo •", "https://github.com/SHIVANSH474/SHUKLA-USERBOT"),
+                        Button.url("• 𝐒ᴛʀᴀɴɢᴇʀ •", "https://t.me/SHIVANSH474"),
                     ],
                     [
-                        Button.url("◈ HellBot Network ◈", "https://t.me/hellbot_networks"),
+                        Button.url("◈ 𝐒ᴛʀᴀɴɢᴇʀ Network ◈", "https://t.me/SHIVANSH474"),
                     ],
                 ],
                 link_preview=False,
@@ -241,7 +241,7 @@ if Config.BOT_USERNAME and tbot:
         if event.query.user_id in auth:
             reply_popup = "This is for Other Users..."
         else:
-            reply_popup = "🔰 This is 𝐏ʙ𝐗ʙᴏᴛ PM Security to keep away unwanted retards from spamming PM !!"
+            reply_popup = "🔰 This is 𝐒ᴛʀᴀɴɢᴇʀ PM Security to keep away unwanted retards from spamming PM !!"
         await event.answer(reply_popup, cache_time=0, alert=True)
 
     @tbot.on(CallbackQuery(data=compile(b"req")))
@@ -321,7 +321,7 @@ if Config.BOT_USERNAME and tbot:
                     file=help_pic,
                 )
         else:
-            await event.answer("Hello! This help menu is not for you, you can make yourself a PbXbot Bot and use your bot. Go to @ll_THE_BAD_BOT_ll for more info.", cache_time=0, alert=True)
+            await event.answer("Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ Bot and use your bot. Go to @SHIVANSH474 for more info.", cache_time=0, alert=True)
 
     @tbot.on(CallbackQuery(data=compile(b"close")))
     async def on_plug_in_callback_query_handler(event):
@@ -332,18 +332,18 @@ if Config.BOT_USERNAME and tbot:
                 f"{hell_emoji} Re-Open Menu {hell_emoji}", data="reopen"
             )
             await event.edit(
-                f"**🎭 Closed ᴘʙxʙᴏᴛ's help menu**\n\n**Bot Of:**  {hell_mention}\n\n        [©️ 𝐏ʙ𝐗ʙᴏᴛ ™️]({chnl_link})",
+                f"**🎭 Closed 𝐒ᴛʀᴀɴɢᴇʀʙᴏᴛ's help menu**\n\n**Bot Of:**  {hell_mention}\n\n        [©️ 𝐒ᴛʀᴀɴɢᴇʀʙᴏᴛ ™️]({chnl_link})",
                 buttons=veriler,
                 link_preview=False,
             )
         else:
-            await event.answer("Hello! This help menu is not for you, you can make yourself a PbXBot and use your bot. Go to @ll_THE_BAD_BOT_ll for more info.", cache_time=0, alert=True)
+            await event.answer("Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ and use your bot. Go to @SHIVANSH474 for more info.", cache_time=0, alert=True)
             
     @tbot.on(CallbackQuery(data=compile(b"send\((.+?)\)")))
     async def send(event):
         plugin = event.data_match.group(1).decode("UTF-8")
         _, _, hell_mention = await client_id(event, event.query.user_id)
-        omk = f"**• Plugin name ≈** `{plugin}`\n**• Uploaded by ≈** {hell_mention}\n\n⚡ **[𝐏ʙ𝐗ʙᴏᴛ]({chnl_link})** ⚡"
+        omk = f"**• Plugin name ≈** `{plugin}`\n**• Uploaded by ≈** {hell_mention}\n\n⚡ **[𝐒ᴛʀᴀɴɢᴇʀ]({chnl_link})** ⚡"
         the_plugin_file = "./TelethonHell/plugins/{}.py".format(plugin.lower())
         butt = Button.inline(f"{hell_emoji} Main Menu {hell_emoji}", data="reopen")
         if os.path.exists(the_plugin_file):
@@ -374,7 +374,7 @@ if Config.BOT_USERNAME and tbot:
             )
         else:
             return await event.answer(
-                "Hello! This help menu is not for you, you can make yourself a HellBot and use your bot. Go to @Its_HellBot for more info.",
+                "Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ and use your bot. Go to @SHIVANSH474 for more info.",
                 cache_time=0,
                 alert=True,
             )
@@ -405,7 +405,7 @@ if Config.BOT_USERNAME and tbot:
             )
         else:
             return await event.answer(
-                "Hello! This help menu is not for you, you can make yourself a PbXBot and use your bot. Go to @ll_THE_BAD_BOT_ll for more info.",
+                "Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ and use your bot. Go to @SHIVANSH474 for more info.",
                 cache_time=0,
                 alert=True,
             )
@@ -455,7 +455,7 @@ if Config.BOT_USERNAME and tbot:
             )
         else:
             return await event.answer(
-                "Hello! This help menu is not for you, you can make yourself a HellBot and use your bot. Go to @Its_HellBot for more info.",
+                "Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ and use your bot. Go to @SHIVANSH474 for more info.",
                 cache_time=0,
                 alert=True,
             )
