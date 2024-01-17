@@ -8,11 +8,11 @@ from HellConfig import Config
 
 
 def validate_session(session):
-    if "==PBX" and "bot==" in session.lower():
+    if "==STRANGER" and "bot==" in session.lower():
         new_session = session[6:-5]
         return str(new_session)
     else:
-        print(f"PBXBOT SESSION - Wrong session string!")
+        print(f"STRANGER SESSION - Wrong session string!")
         sys.exit()
 
 
