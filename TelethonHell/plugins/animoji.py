@@ -335,7 +335,7 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 12])
 
-@hell_cmd(pattern="bad$")
+@hell_cmd(pattern="shiv$")
 async def _(event):
     animation_interval = 2
     animation_ttl = range(12)
@@ -352,13 +352,13 @@ async def _(event):
         "💞",
         "💜",
         "❤️‍🔥",
-        "[⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/II_BAD_MUNDA_II)",
+        "[⎯꯭̽🇨🇦꯭꯭ ⃪𝐒ʜɪᴠᴀɴsʜ-𝐗ᴅ_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/SHIVANSH39)",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 12])
 
-@hell_cmd(pattern="devil$")
+@hell_cmd(pattern="stranger$")
 async def _(event):
     animation_interval = 2
     animation_ttl = range(12)
@@ -375,7 +375,7 @@ async def _(event):
         "❤️",
         "❣️",
         "💞",
-        "[𐏓 ⃪⃝💸 ꯭𝗖ᴜᴛᴇ᳢᪵•𝗗ᴇᴠɪ𝗟 ⃪آ͢آ🦅⃚⃮⃕⃔⃤ ꯭༎ࠫ⛧‌ٖٖٖٖٖٖٜٖٖٖٖ](https://t.me/ll_mxni_ll)",
+        "[𐏓 ⃪⃝💸 ꯭𝐒ᴛʀᴀɴɢᴇʀ ⃪آ͢آ🦅⃚⃮⃕⃔⃤ ꯭༎ࠫ⛧‌ٖٖٖٖٖٖٜٖٖٖٖ](https://t.me/SHIVANSH474)",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
