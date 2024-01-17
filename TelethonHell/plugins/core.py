@@ -27,9 +27,9 @@ async def kk(event):
 
 <b><i>HELP:</b></i> <i>If you want to know the commands for a plugin, do “ .plinfo <plugin name> ”
 
-<b><a href='https://t.me/its_hellbot'>@Its_HellBot</a></b>
+<b><a href='https://t.me/SHIVANSH474'>@SHIVANSH474</a></b>
 """
-    hell = await telegraph_paste("All available plugins in Hêllẞø†", OUTPUT)
+    hell = await telegraph_paste("All available plugins in 𝐒ᴛʀᴀɴɢᴇʀ", OUTPUT)
     await eor(event, f"[All available plugins in Hêllẞø†]({hell})", link_preview=False)
 
 
@@ -40,7 +40,7 @@ async def send(event):
     message_id = event.reply_to_msg_id or event.message.id
     thumb = hell_logo
     input_str = event.pattern_match.group(1)
-    omk = f"**• Plugin name ≈** `{input_str}`\n**• Uploaded by ≈** {hell_mention}\n\n⚡ **[ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt]({chnl_link})** ⚡"
+    omk = f"**• Plugin name ≈** `{input_str}`\n**• Uploaded by ≈** {hell_mention}\n\n⚡ **[ʟɛɢɛռɖaʀʏ ᴀғ 𝐒ᴛʀᴀɴɢᴇʀ]({chnl_link})** ⚡"
     the_plugin_file = "./TelethonHell/plugins/{}.py".format(input_str.lower())
     if os.path.exists(the_plugin_file):
         await event.client.send_file(
@@ -104,7 +104,7 @@ async def install(event):
                             b = 1
                         await hell.edit(a)
                     return await hell.edit(
-                        f"✅ **Installed module** :- `{shortname}` \n✨ BY :- {hell_mention}\n\n{string}\n\n        ⚡ **[ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt]({chnl_link})** ⚡",
+                        f"✅ **Installed module** :- `{shortname}` \n✨ BY :- {hell_mention}\n\n{string}\n\n        ⚡ **[ʟɛɢɛռɖaʀʏ ᴀғ 𝐒ᴛʀᴀɴɢᴇʀ]({chnl_link})** ⚡",
                         link_preview=False,
                     )
                 return await hell.edit(
@@ -158,7 +158,7 @@ async def load(event):
 
 
 CmdHelp("core").add_command(
-    "install", "<reply to a .py file>", "Installs the replied python file if suitable to Hêllẞø†'s codes.`\n**🚩 Flags :** `-f"
+    "install", "<reply to a .py file>", "Installs the replied python file if suitable to 𝐒ᴛʀᴀɴɢᴇʀ's codes.`\n**🚩 Flags :** `-f"
 ).add_command(
     "uninstall", "<plugin name>", "Uninstalls the given plugin from Hêllẞø†. To get that again do .restart", "uninstall alive"
 ).add_command(
