@@ -16,13 +16,13 @@ async def restart(event):
         app = Heroku.apps()[Config.HEROKU_APP_NAME]
         app.restart()
     else:
-        await eor(event, f"✅ **Restarted 𝐏ʙx 𝐁ᴏᴛ** \n**Type** `{hl}ping` **after 1 minute to check if I am working !**")
+        await eor(event, f"✅ **Restarted 𝐒ᴛʀᴀɴɢᴇʀ 𝐁ᴏᴛ** \n**Type** `{hl}ping` **after 1 minute to check if I am working !**")
         await event.client.disconnect()
 
 
 @hell_cmd(pattern="restart$")
 async def re(hell):
-    event = await eor(hell, "Restarting 𝐏ʙx 𝐁ᴏᴛ ..")
+    event = await eor(hell, "Restarting 𝐒ᴛʀᴀɴɢᴇʀ 𝐁ᴏᴛ ..")
     try:
         await restart(event)
     except CancelledError:
@@ -33,31 +33,31 @@ async def re(hell):
 
 @hell_cmd(pattern="reload$")
 async def rel(event):
-    await eor(event, "**Reloaded 𝐏ʙx 𝐁ᴏᴛ!** \n\n__This might take a minute.__")
+    await eor(event, "**Reloaded 𝐒ᴛʀᴀɴɢᴇʀ 𝐁ᴏᴛ!** \n\n__This might take a minute.__")
     await reload_hellbot()
 
 
 @hell_cmd(pattern="shutdown$")
 async def down(event):
-    await eor(event, "**[ ⚠️ ]** \n**𝐏ʙx 𝐁ᴏᴛ is now turned off. Manually turn it on to start again.**")
+    await eor(event, "**[ ⚠️ ]** \n**𝐒ᴛʀᴀɴɢᴇʀ 𝐁ᴏᴛ is now turned off. Manually turn it on to start again.**")
     if HEROKU_APP is not None:
         HEROKU_APP.process_formation()["worker"].scale(0)
     else:
         sys.exit(0)
 
 
-@hell_cmd(pattern="sukhpbx(?:\s|$)([\s\S]*)")
+@hell_cmd(pattern="shivansh(?:\s|$)([\s\S]*)")
 async def sett(event):
     lists = event.text.split(" ", 2)
     if len(lists) != 3:
-        return await parse_error(event, f"__Invalid Syntax !!__ \n__Try:__ `{hl}sukhpbx VARIABLE_NAME variable value`", False)
+        return await parse_error(event, f"__Invalid Syntax !!__ \n__Try:__ `{hl}shivansh VARIABLE_NAME variable value`", False)
     var = lists[1].strip().upper()
     val = lists[2].strip()
     hell = await eor(event, f"**Setting variable** `{var}` **as** `{val}`")
     if var == "":
-        return await parse_error(hell, f"__Invalid Syntax !!__ \n__Try:__ `{hl}sukhpbx VARIABLE_NAME variable_value`", False)
+        return await parse_error(hell, f"__Invalid Syntax !!__ \n__Try:__ `{hl}shivansh VARIABLE_NAME variable_value`", False)
     elif val == "":
-        return await parse_error(hell, f"__Invalid Syntax !!__ \n__Try:__ `{hl}sukhpbx VARIABLE_NAME variable_value`", False)
+        return await parse_error(hell, f"__Invalid Syntax !!__ \n__Try:__ `{hl}shivansh VARIABLE_NAME variable_value`", False)
     if var not in db_config:
         return await parse_error(hell, f"__No DB Variable:__ `{var}`. \n__Check spelling or get full list by__ `{hl}vars -db`", False)
     try:
@@ -113,9 +113,9 @@ CmdHelp("power").add_command(
 ).add_command(
     "reload", None, "Reloads the bot DB and SQL variables without deleting any external plugins if installed."
 ).add_command(
-    "shutdown", None, "Turns off 𝐏ʙx 𝐁ᴏᴛ. Userbot will stop working unless you manually turn it on."
+    "shutdown", None, "Turns off 𝐒ᴛʀᴀɴɢᴇʀ 𝐁ᴏᴛ. Userbot will stop working unless you manually turn it on."
 ).add_command(
-    "sukhpbx", "<variable name> <variable value>", "Sets the variable to SQL variables without restarting the bot.", "svar ALIVE_PIC https://telegra.ph/file/db0dd26fce28950c46e20.mp4"
+    "shivansh", "<variable name> <variable value>", "Sets the variable to SQL variables without restarting the bot.", "svar ALIVE_PIC https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg"
 ).add_command(
     "gvar", "<variable name>", "Gets the info of mentioned variable from both SQL & OS.", "gvar ALIVE_PIC"
 ).add_command(
