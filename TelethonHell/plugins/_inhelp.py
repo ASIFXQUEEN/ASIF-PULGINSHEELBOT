@@ -18,12 +18,12 @@ else:
 
 
 alive_txt = """{}\n
-<b><i>🏅 𝙱𝚘𝚝 𝚂𝚝𝚊𝚝𝚞𝚜 🏅</b></i>
-<b>Telethon ≈</b>  <i>{}</i>
-<b>𝐒ᴛʀᴀɴɢᴇʀ ≈</b>  <i>{}</i>
-<b>Uptime ≈</b>  <i>{}</i>
-<b>Abuse ≈</b>  <i>{}</i>
-<b>Sudo ≈</b>  <i>{}</i>
+<b><i>🏅𝑺𝑻𝑹𝑨𝑵𝑮𝑬𝑹 𝑩𝑶𝑻 𝑺𝑻𝑨𝑼𝑻𝑺 🏅</b></i>
+<b>𝑻𝑬𝑳𝑬𝑻𝑯𝑶𝑵 ≈</b>  <i>{}</i>
+<b>𝑺𝑻𝑹𝑨𝑵𝑮𝑬𝑹 ≈</b>  <i>{}</i>
+<b>𝑼𝑷𝑻𝑰𝑴𝑬 ≈</b>  <i>{}</i>
+<b>𝑨𝑩𝑼𝑺𝑬 ≈</b>  <i>{}</i>
+<b>𝑺𝑼𝑫𝑶 ≈</b>  <i>{}</i>
 """
 
 
@@ -93,7 +93,7 @@ if Config.BOT_USERNAME and tbot:
                 result = builder.document(
                     help_pic,
                     text=help_msg,
-                    title="𝐒ᴛʀᴀɴɢᴇʀ Alive",
+                    title="𝐒ᴛʀᴀɴɢᴇʀ 𝐀ʟɪᴠᴇ",
                     buttons=veriler[1],
                     link_preview=False,
                 )
@@ -143,7 +143,7 @@ if Config.BOT_USERNAME and tbot:
             else:
                 result = builder.article(
                     text=he_ll,
-                    title="𝐒ᴛʀᴀɴɢᴇʀ Alive",
+                    title="𝐒ᴛʀᴀɴɢᴇʀ 𝐀ʟɪᴠᴇ",
                     buttons=alv_btn,
                     link_preview=False,
                     parse_mode="HTML",
@@ -151,7 +151,7 @@ if Config.BOT_USERNAME and tbot:
 
         elif event.query.user_id in auth and query == "pm_warn":
             CSTM_PMP = gvarstat("CUSTOM_PMPERMIT") or None
-            HELL_FIRST = f"👻 𝐒ᴛʀᴀɴɢᴇʀ  𝐏ᴍ 𝐒ᴇᴄᴜʀɪᴛʏ 👻 \n\n👋🏻𝐇ყ {hell_mention}  \n❤️𝐎ɯɳҽɾ 𝐈ʂ 𝐎ϝϝℓιɳҽ 𝐒ꪮ 𝐏ℓꫀαʂꫀ 𝐃σɳ'ƚ 𝐒ραɱ🌪️ \n⚡𝐈ϝ 𝐘συ 𝐒ραɱ , 𝐘συ 𝐖ιℓℓ 𝐁ҽ 𝐁ℓσ¢ƙҽԃ 𝐀υƚσɱαƚι¢ℓℓу 🌸 \n\n🦋 𝐖αιт 𝐅σя  𝐌у 𝐂υтє [𝐎ωиєя](tg://settings) ❤️"
+            HELL_FIRST = f"👻 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐏𝐌 𝐒𝐂 👻 \n\n👋🏻𝐇ყ {hell_mention}  \n❤️𝐎ɯɳҽɾ 𝐈ʂ 𝐎ϝϝℓιɳҽ 𝐒ꪮ 𝐏ℓꫀαʂꫀ 𝐃σɳ'ƚ 𝐒ραɱ🌪️ \n⚡𝐈ϝ 𝐘συ 𝐒ραɱ , 𝐘συ 𝐖ιℓℓ 𝐁ҽ 𝐁ℓσ¢ƙҽԃ 𝐀υƚσɱαƚι¢ℓℓу 🌸 \n\n🦋 𝐖αιт 𝐅σя  𝐌у 𝐂υтє [🅑ᴇᴛᴇ](tg://settings) ❤️"
             if CSTM_PMP:
                 HELL_FIRST += f"\n\n{CSTM_PMP}"
             a = gvarstat("PMPERMIT_PIC")
@@ -206,7 +206,7 @@ if Config.BOT_USERNAME and tbot:
         elif event.query.user_id in auth and query == "repo":
             result = builder.article(
                 title="Repository",
-                text=f"**👻𝐒ᴛʀᴀɴɢᴇʀ👻**",
+                text=f"**👻𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑👻**",
                 buttons=[
                     [Button.url("📑 𝐑ᴇᴘᴏ 📑", "https://github.com/SHIVANSH474/SHUKLA-USERBOT")],
                     [Button.url("𝐒ᴛʀᴀɴɢᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ", "https://t.me/SHIVANSH474")],
