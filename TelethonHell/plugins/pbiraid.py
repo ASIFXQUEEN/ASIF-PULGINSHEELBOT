@@ -91,16 +91,16 @@ async def _(event):
         await hellbot.send_message(chat, "LAUDEE")
         await hellbot.send_message(chat, "CHUT KE BAAL")
         await hellbot.send_message(chat,  "BETE PAPA BOL")
-        await hellbot.send_message(chat, "🥵ਬਾਰੀ ਬਰਸੀ")
-        await hellbot.send_message(chat, "ਖੱਟਣ ਗਿਆ ਸੀ")
-        await hellbot.send_message(chat, "ਖੱਟ ਕੇ ਲਿਆਂਦਾ")
-        await hellbot.send_message(chat, "ਫੂਸਾ ਮੇਰਾ ਡੈਡੀ")
-        await hellbot.send_message(chat, "ਤੇਰੀ ਬੁੰਡ ਮਾਰੇ ਮੈ")
-        await hellbot.send_message(chat, "ਮਾਰਾਂ ਤੇਰੀ ਭੈਣ ਦਾ ਘੁਸਾ👅") 
-        await hellbot.send_message(chat, "🥵ਬਾਰੀ ਬਰਸੀ 👅")
-        await hellbot.send_message(chat, "🥵ਖੱਟਣ ਗਿਆ ਸੀ 👅") 
-        await hellbot.send_message(chat, "🥵ਖੱਟ ਕੇ ਲਿਆਂਦਾ 👅")
-        await hellbot.send_message(chat, "👅ਸੀਤ ਫੁਲ 🥵👅")
+        await hellbot.send_message(chat, " BAAG RANDI")
+        await hellbot.send_message(chat, "NIKAL LAUDE")
+        await hellbot.send_message(chat, "SO JAA DUDH PEE KE")
+        await hellbot.send_message(chat, "BABY MAAT RO MILEGA LAND")
+        await hellbot.send_message(chat, "TUJHE CHODD KE ARAAM MILA")
+        await hellbot.send_message(chat, "TERE JAISE LOG MERE LAND PE") 
+        await hellbot.send_message(chat, " JHOOL RAHE RASSSI DALKE")
+        await hellbot.send_message(chat, "TU NA SAH PAYEGA BABU MUMMY KO BHEJ") 
+        await hellbot.send_message(chat, "MERA LAND AUR DIL DONO BADAA")
+        await hellbot.send_message(chat, "PAHLE APNE DIDI KO BHEJ DIL ME PHIR LAND ")
         await hellbot.send_message(chat, "🥵ਤੇਰੀ ਕੁੜੀ ਦੇ 👅")
         await hellbot.send_message(chat, "🥵ਸ਼ੋਲ਼ੇ ਚ 👅")
         await hellbot.send_message(chat, "🥵ਨੀਗਰੋ ਦਾ 👅")
@@ -128,7 +128,7 @@ async def _(event):
                 
         
         CmdHelp("raid").add_command(
-    "praid", None, "Big Gaali Spam!"
+    "raid", None, "Big Gaali Spam!"
 ).add_command(
     "draid", None, " spam stop!"
 ).add_warning(
