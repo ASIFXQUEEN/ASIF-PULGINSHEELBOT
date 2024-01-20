@@ -118,11 +118,11 @@ async def _(event):
         await hellbot.send_message(chat, "🥵ਬਾਰੀ ਬਰਸੀ 👅")
         await hellbot.send_message(chat, "🥵ਖੱਟਣ ਗਿਆ ਸੀ 👅")
         await hellbot.send_message(chat, "🥵ਖੱਟ ਕੇ ਲਿਆਇਆ 👅")
-        await hellbot.send_message(chat, "🥵ਕੇਲਾ 👅")
-        await hellbot.send_message(chat, "🥵ਤੇਰੀ ਭੈਣ 👅")
-        await hellbot.send_message(chat, "🥵ਦਾ ਘੁਸੇ ਚ ਪੈ ਗਿਆ 👅")
-        await hellbot.send_message(chat, "🥵ਤੇਲਾ👅")
-        await hellbot.send_message(chat, "😈ਤੇਰੀ ਮਾ ਦਾ ਫੂਦਾ ਮਾਰੇ ਬੈਡ ਹੋ ਕੇ ਟੈਟ😈")
+        await hellbot.send_message(chat, "PAHCHANA SHIVANSH PAPA HU")
+        await hellbot.send_message(chat, "AAJA BETE")
+        await hellbot.send_message(chat, "PAPA NA BOL BAAP BOL")
+        await hellbot.send_message(chat, "TERI MAA MERE LAND SE HI CHUDEGI")
+        await hellbot.send_message(chat, "TU KITNA BADA GANDU HAI")
         await hellbot.send_message(chat, "😈ਬਾਰੀ ਬਰਸੀ ਖਟਣ ਗਿਆ ਸੀ ਖੱਟ ਕੇ ਲਿਆਦਾ ਹੈੱਡ ਤੇਰੀ ਮਾਂ ਦਾ ਫੂਦਾ ਮਾਰੇ ਨਗਾ ਹੋ ਕੇ ਬੈਡ 😈")
   
                 
