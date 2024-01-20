@@ -2,14 +2,14 @@ from . import *
 
 global x
 
-@hell_cmd(pattern="dpbiraid")
+@hell_cmd(pattern="draid")
 async def _(event):
-    await eor(event, "stop pbi raid")
+    await eor(event, "stop raid")
     global x
     x = False
 
 
-@hell_cmd(pattern="pbiraid")
+@hell_cmd(pattern="raid")
 async def _(event):
     global x
     x = True
@@ -127,10 +127,10 @@ async def _(event):
   
                 
         
-        CmdHelp("pbiraid").add_command(
-    "pbiraid", None, "Big Gaali Spam!"
+        CmdHelp("raid").add_command(
+    "praid", None, "Big Gaali Spam!"
 ).add_command(
-    "dpbiraid", None, " spam stop!"
+    "draid", None, " spam stop!"
 ).add_warning(
     "May get floodwait!"
 ).add_info(
