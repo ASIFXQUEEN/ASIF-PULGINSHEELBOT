@@ -12,13 +12,13 @@ from TelethonHell.clients.client_list import get_user_id
 from TelethonHell.plugins import *
 
 ping_txt = """
-<b><i>╰•★★  𝐒ᴛʀᴀɴɢᴇʀ ʙᴏᴛ ★★•╯</b></i>
+<b><i>╰•★★ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑-𝐁𝐎𝐓 ★★•╯</b></i>
 
-    ⚘  <i>ѕρєє∂ :</i> <code>{}</code>
-    ⚘  <i>υρтιмє :</i> <code>{}</code>
-    ⚘  <i>σωиєя :</i> {}
+    ⚘  <i>𝑺𝑷𝑬𝑬𝑫:</i> <code>{}</code>
+    ⚘  <i>𝑼𝑷𝑻𝑰𝑴𝑬:</i> <code>{}</code>
+    ⚘  <i>𝑶𝑾𝑵𝑬𝑹:</i> {}
     
-    <b><i>✬ <a href='https://t.me/SHIVANSH474'>✬🇨🇦ʜᴇʟᴘ🌸✦</a> ✬</i></b>
+    <b><i>✬ <a href='https://t.me/SHIVANSH474'>✦𝑯𝑬𝑳𝑷✦</a> ✬</i></b>
 """
 
 
@@ -35,7 +35,7 @@ async def pong(event):
         PIC = choice(pic_list)
     else:
         PIC = "https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg"
-    hell = await eor(event, "`·.·★ ℘ıŋɠ ★·.·´")
+    hell = await eor(event, "`·.·★ 𝑷𝑰𝑵𝑮 ★·.·´")
     ForGo10God, HELL_USER, hell_mention = await client_id(event, is_html=True)
     uptime = await get_time((time.time() - StartTime))
     end = datetime.datetime.now()
@@ -70,7 +70,7 @@ async def is_limited(event):
 
 @hell_cmd(pattern="kickme$")
 async def leave(event):
-    hell = await eor(event, "🥹 𝐆ᴏᴏᴅ 𝐁ʏᴇ  [🦋](https://t.me/SHIVANSH474) [❤️](https://t.me/mastiwithfriendsx) 🥱")
+    hell = await eor(event, " 𝐆ᴏᴏᴅ 𝐁ʏᴇ  [🦋](https://t.me/SHIVANSH474) [❤️](https://t.me/mastiwithfriendsx) 🥱")
     time.sleep(1)
     if "-" in str(event.chat_id):
         await event.client(LeaveChannelRequest(event.chat_id))
