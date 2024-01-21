@@ -352,7 +352,7 @@ async def _(event):
         "💞",
         "💜",
         "❤️‍🔥",
-        "[⎯꯭̽🇨🇦꯭꯭ ⃪𝐒ʜɪᴠᴀɴsʜ-𝐗ᴅ_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/SHIVANSH39)",
+        "[⎯꯭̽🇨🇦꯭꯭_꯭RAJآآ⎯꯭ ꯭̽🌸](https://t.me/ASHIF903)",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
@@ -375,7 +375,7 @@ async def _(event):
         "❤️",
         "❣️",
         "💞",
-        "[𐏓 ⃪⃝💸 ꯭𝐒ᴛʀᴀɴɢᴇʀ ⃪آ͢آ🦅⃚⃮⃕⃔⃤ ꯭༎ࠫ⛧‌ٖٖٖٖٖٖٜٖٖٖٖ](https://t.me/SHIVANSH474)",
+        "[𐏓 ⃪⃝💸 ꯭NAVEEN ⃪آ͢آ🦅⃚⃮⃕⃔⃤ ꯭༎ࠫ⛧‌ٖٖٖٖٖٖٜٖٖٖٖ](https://t.me/MR_NAVEEN720)",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
