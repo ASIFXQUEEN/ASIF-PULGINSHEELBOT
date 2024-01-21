@@ -21,8 +21,7 @@ ALIVE_TEMP = """
 ┣─ <b>»𝐔𝐏𝐓𝐈𝐌𝐄:</b> <i>{uptime}</i>
 ┣─ <b>»𝐏𝐈𝐍𝐆:</b> <i>{ping}</i>
 ╰──────────────
-<b><i>»»» <a href='https://t.me/SHIVANSH474'>[𝐓𝐇𝐄 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑]</a> «««</i></b>
-
+<b><i>»»» <a href='https://t.me/SHIVANSH474'>𝐓𝐇𝐄 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑</a> «««</i></b>
 
 <b><i>⛧ <a href='https://t.me/SHIVANSH474'>✦𝑺𝑻𝑹𝑨𝑵𝑮𝑬𝑹✦</a> ⛧</i></b>
 
