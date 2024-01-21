@@ -39,7 +39,7 @@ async def _(event):
             reply_to=event.message.id,
         )
 
-@hell_cmd(pattern="bireplyraid(?:\s|$)([\s\S]*)")
+@hell_cmd(pattern="hirraid(?:\s|$)([\s\S]*)")
 async def _(event):
     global que
     if event.fwd_from:
