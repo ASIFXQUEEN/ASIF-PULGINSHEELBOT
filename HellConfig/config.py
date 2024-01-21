@@ -18,7 +18,7 @@ class Config(object):
     G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", None)
     G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", None)
     GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", None)
-    GIT_REPO_NAME = os.environ.get("GIT_REPO", "SHIVANSH474/SHUKLA-PULGINS")
+    GIT_REPO_NAME = os.environ.get("GIT_REPO", "ASIFXQUEEN/ASIF-PULGINSHEELBOT")
     GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
     HANDLER = os.environ.get("HANDLER", ".")
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
@@ -28,8 +28,8 @@ class Config(object):
     LOGGER_ID = int(os.environ.get("LOGGER_ID", 0))
     LYRICS_API = os.environ.get("LYRICS_API", None)
     MAX_SPAM = int(os.environ.get("MAX_SPAM", 3))
-    MY_CHANNEL = os.environ.get("YOUR_CHANNEL", "ll_THE_BAD_BOT_ll")
-    MY_GROUP = os.environ.get("YOUR_GROUP", "ll_THE_BAD_BOT_ll")
+    MY_CHANNEL = os.environ.get("YOUR_CHANNEL", "ARAME9")
+    MY_GROUP = os.environ.get("YOUR_GROUP", "@bestodisha")
     OCR_API = os.environ.get("OCR_API", None)
     PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", 0))
     PM_LOGGER = int(os.environ.get("PM_LOGGER", 0))
@@ -45,7 +45,7 @@ class Config(object):
     TAG_LOGGER = int(os.environ.get("TAG_LOGGER", 0))
     THUMB_IMG = os.environ.get("THUMB_IMG", "./HellConfig/resources/pics/hellbot_logo.jpg")
     UNLOAD = list(os.environ.get("UNLOAD", "").split())
-    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/SHIVANSH474/SHUKLA-USERBOT")
+    UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/ASIFXQUEEN/ASIF-PULGINSHEELBOT")
     UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "master")
     WEATHER_API = os.environ.get("WEATHER_API", None)
 
@@ -55,7 +55,7 @@ class Config(object):
     CHROME_DRIVER = os.environ.get("CHROME_DRIVER", "/app/.chromedriver/bin/chromedriver")
     GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", "/app/.apt/usr/bin/google-chrome")
     MAX_MESSAGE_SIZE_LIMIT = 4095
-    SUDO_USERS = [6762113050, 6919199044]
+    SUDO_USERS = [5099049612, 6132821365, 6632587591]
     TELEGRAPH_NAME = os.environ.get("TELEGRAPH_NAME", "[ †he Hêllẞø† ]")
     TEMP_DIR = os.environ.get("TEMP_DIR", None)
     TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
