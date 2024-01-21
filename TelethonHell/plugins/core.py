@@ -160,7 +160,7 @@ async def load(event):
 CmdHelp("core").add_command(
     "install", "<reply to a .py file>", "Installs the replied python file if suitable to 𝐒ᴛʀᴀɴɢᴇʀ's codes.`\n**🚩 Flags :** `-f"
 ).add_command(
-    "uninstall", "<plugin name>", "Uninstalls the given plugin from Hêllẞø†. To get that again do .restart", "uninstall alive"
+    "uninstall", "<plugin name>", "Uninstalls the given plugin from 𝐒ᴛʀᴀɴɢᴇʀ. To get that again do .restart", "uninstall alive"
 ).add_command(
     "load", "<plugin name>", "Loades the unloaded plugin to your userbot", "load alive"
 ).add_command(
@@ -170,7 +170,7 @@ CmdHelp("core").add_command(
 ).add_command(
     "cmds", None, "Gives out the list of modules in HellBot."
 ).add_command(
-    "repo", None, "Gives HellBot's Github repo link."
+    "repo", None, "Gives 𝐒ᴛʀᴀɴɢᴇʀ's Github repo link."
 ).add_command(
     "help", None, "Shows inline help menu."
 ).add_command(
