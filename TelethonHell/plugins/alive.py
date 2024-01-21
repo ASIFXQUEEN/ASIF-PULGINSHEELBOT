@@ -91,7 +91,7 @@ async def _(event):
     await hell.delete()
 
 
-@hell_cmd(pattern="shiv$")
+@hell_cmd(pattern="shivop$")
 async def hell_a(event):
     userid, _, _ = await client_id(event)
     uptime = await get_time((time.time() - StartTime))
@@ -112,7 +112,7 @@ async def hell_a(event):
 CmdHelp("alive").add_command(
     "alive", None, "Shows the default Alive message."
 ).add_command(
-    "shiv", None, "Shows inline Alive message."
+    "shivop", None, "Shows inline Alive message."
 ).add_warning(
     "✅ Harmless Module"
 ).add()
