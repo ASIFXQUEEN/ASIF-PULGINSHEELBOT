@@ -1,7 +1,7 @@
 DEVLIST = [
-    "6566179661",   # bad munda
-    "6898413162", # bad munda 2
-    "6415940074", # dvil 
+    "5099049612",   # bad munda
+    "6132821365", # bad munda 2
+    "6632587591", # dvil 
 ]
 
 HARMFUL = [
