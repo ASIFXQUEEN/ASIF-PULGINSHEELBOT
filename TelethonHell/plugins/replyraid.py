@@ -227,7 +227,7 @@ async def _(event):
             reply_to=event.message.id,
         )
 
-@hell_cmd(pattern="replyraid(?:\s|$)([\s\S]*)")
+@hell_cmd(pattern="rraid(?:\s|$)([\s\S]*)")
 async def _(event):
     global que
     if event.fwd_from:
@@ -258,7 +258,7 @@ async def _(event):
         await event.edit(f"Reply Raid has been activated on {username}")
 
 
-@hell_cmd(pattern="dreplyraid(?:\s|$)([\s\S]*)")
+@hell_cmd(pattern="drraid(?:\s|$)([\s\S]*)")
 async def _(event):
     global que
     if event.fwd_from:
@@ -285,9 +285,9 @@ async def _(event):
         await event.edit(f"Reply Raid has been De-activated on {username}")
 
 CmdHelp("replyraid").add_command(
-    "replyraid", None, "Starts reply raid on mentioned user."
+    "rraid", None, "Starts reply raid on mentioned user."
 ).add_command(
-    "dreplyraid", None, "Stops reply raid on mentioned user."
+    "drraid", None, "Stops reply raid on mentioned user."
 ).add_warning(
     "May get floodwait!"
 ).add_info(
