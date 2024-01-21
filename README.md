@@ -1,9 +1,9 @@
 <h1 align="center">
-  <b>†hê Hêllẞø† 🇮🇳</b>
+  <b> Queeñ Hêllẞø† 🇮🇳</b>
 </h1>
 
 <p align="center">
-  <img src="https://te.legra.ph/file/fd0c3c2201447746fd1d0.jpg" alt="The-HellBot">
+  <img src="https://radare.arzfun.com/api/tg/photo?id=AgACAgQAAxkBAAIP-GWtDSuxRvQXAiyD1a54y5h9_Ko3AALpwTEboydoUZp_eSkY8TOWAQADAgADeAADNAQ" alt="The-HellBot">
 </p>
 
 <h6 align="center">
@@ -108,7 +108,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 ------
 ## Credits
 
-- 💖 [Telethon](https://github.com/LonamiWebs/Telethon)
+- 💖 [Telethon](https://github.com/Ls/Telethon)
 - 💖 [Pyrogram](https://github.com/Pyrogram/Pyrogram)
 - 💖 Team Hellbot
 
