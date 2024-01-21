@@ -101,29 +101,29 @@ async def _(event):
         await hellbot.send_message(chat, "TU NA SAH PAYEGA BABU MUMMY KO BHEJ") 
         await hellbot.send_message(chat, "MERA LAND AUR DIL DONO BADAA")
         await hellbot.send_message(chat, "PAHLE APNE DIDI KO BHEJ DIL ME PHIR LAND ")
-        await hellbot.send_message(chat, "🥵ਤੇਰੀ ਕੁੜੀ ਦੇ 👅")
-        await hellbot.send_message(chat, "🥵ਸ਼ੋਲ਼ੇ ਚ 👅")
-        await hellbot.send_message(chat, "🥵ਨੀਗਰੋ ਦਾ 👅")
-        await hellbot.send_message(chat,  "🥵55ਇੰਚ ਦਾ 👅")
-        await hellbot.send_message(chat, "🥵ਲੁੱਲ👅")
-        await hellbot.send_message(chat, "🥵ਬਾਰੀ ਬਰਸੀ 👅")
-        await hellbot.send_message(chat, "🥵ਖੱਟਣ ਗਿਆ ਸੀ 👅")
-        await hellbot.send_message(chat, "🥵ਖੱਟ ਕੇ ਲਿਆਇਆ 👅")
-        await hellbot.send_message(chat, "🥵ਕੂਲਾ 👅")
-        await hellbot.send_message(chat,  "🥵ਕੂਲਾ 👅")                                                     
-        await hellbot.send_message(chat, "🥵ਤੇਰੀ ਕੁੜੀ ਦੇ 👅")
-        await hellbot.send_message(chat, "🥵ਲੁੱਲਾ ਮਾਰ ਗਿਆ 👅")
-        await hellbot.send_message(chat, "🥵ਸਾਡੇ ਪਿੰਡ ਵਾਲਾ 👅")
-        await hellbot.send_message(chat, "🥵ਬਾਬਾ ਫੂਲਾ 👅")
-        await hellbot.send_message(chat, "🥵ਬਾਰੀ ਬਰਸੀ 👅")
-        await hellbot.send_message(chat, "🥵ਖੱਟਣ ਗਿਆ ਸੀ 👅")
-        await hellbot.send_message(chat, "🥵ਖੱਟ ਕੇ ਲਿਆਇਆ 👅")
+        await hellbot.send_message(chat, "YE KHUDAA TU APNI MAA CHUDAA")
+        await hellbot.send_message(chat, "MAAN JAA BABU NA CHUDAA KHUD KO")
+        await hellbot.send_message(chat, "HIJADE KI AULAAAD")
+        await hellbot.send_message(chat,  "TERE MUMMY KO KUTTA BHI NA CHHODE")
+        await hellbot.send_message(chat, "TU HARAMI NAHI NAJAYAJ HAI")
+        await hellbot.send_message(chat, "TERI BAHAN KA FUDDDI BECHUUU")
+        await hellbot.send_message(chat, "AAA MERAA LANDDD CHUUS")
+        await hellbot.send_message(chat, "TERI BIBI KO KUTTA CHODEEE")
+        await hellbot.send_message(chat, "TERI MAA MERI BANDII")
+        await hellbot.send_message(chat,  "TU SUDHAAR JAAA BETE")                                                     
+        await hellbot.send_message(chat, "TERI MAAA KA HENDEL MAAARU")
+        await hellbot.send_message(chat, "JHAAT KE BAAL")
+        await hellbot.send_message(chat, "SUAAR KA PILLA")
+        await hellbot.send_message(chat, "RANDI")
+        await hellbot.send_message(chat, "SAADI HUII GAAND")
+        await hellbot.send_message(chat, "TERI MAA KO BAJAAR ME NANGAA CHODUUU")
+        await hellbot.send_message(chat, "CHHIPKAALI KI CHUT")
         await hellbot.send_message(chat, "PAHCHANA SHIVANSH PAPA HU")
         await hellbot.send_message(chat, "AAJA BETE")
         await hellbot.send_message(chat, "PAPA NA BOL BAAP BOL")
         await hellbot.send_message(chat, "TERI MAA MERE LAND SE HI CHUDEGI")
         await hellbot.send_message(chat, "TU KITNA BADA GANDU HAI")
-        await hellbot.send_message(chat, "😈ਬਾਰੀ ਬਰਸੀ ਖਟਣ ਗਿਆ ਸੀ ਖੱਟ ਕੇ ਲਿਆਦਾ ਹੈੱਡ ਤੇਰੀ ਮਾਂ ਦਾ ਫੂਦਾ ਮਾਰੇ ਨਗਾ ਹੋ ਕੇ ਬੈਡ 😈")
+        await hellbot.send_message(chat, "😈 TERI MAAA KI CHUT KO BECH KE COCO KOLA PIUNGAA")
   
                 
         
