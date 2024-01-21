@@ -10,7 +10,7 @@ from TelethonHell.version import __telever__
 
 # Creates the logger group on first deploy and adds the helper bot
 async def logger_id(client):
-    desc = "🦋ʟᴏɢɢᴇʀ ɢʀᴏᴜᴘ ғᴏʀ sᴛʀᴀɴɢᴇʀ ᴅᴏ ɴᴏᴛ ʟᴇᴀᴠᴇ ᴛʜɪs ɢʀᴏᴜᴘ ❤️"
+    desc = "💘ʏᴇʜ ᴍᴇʀɪ ᴊᴀɴᴀ ᴋʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴀɪ ʙᴇʜ 💘"
     try:
         grp = await client(
             functions.channels.CreateChannelRequest(
@@ -83,14 +83,14 @@ async def start_msg(client, pic, version, total):
 <b><i>Sudo:</b></i> <code>{is_sudo}</code>
 <b><i>Library:</b></i> <code>Telethon - {__telever__}</code>
 
-<b><i>»» <u><a href='https://t.me/SHIVANSH474'>𝐒ᴛʀᴀɴɢᴇʀ</a></u> ««</i></b>
+<b><i>»» <u><a href='https://t.me/AHIF903'>𝐒ᴛʀᴀɴɢᴇʀ</a></u> ««</i></b>
 """
     await client.send_file(
         Config.LOGGER_ID,
         pic,
         caption=text,
         parse_mode="HTML",
-        buttons=[[Button.url("𝐒ᴛʀᴀɴɢᴇʀ 𝐒ᴜᴘᴘᴏʀᴛ", "https://t.me/SHIVANSH474")]],
+        buttons=[[Button.url("𝐒ᴛʀᴀɴɢᴇʀ 𝐒ᴜᴘᴘᴏʀᴛ", "https://t.me/BESTODiSHA")]],
     )
 
 
@@ -98,8 +98,8 @@ async def start_msg(client, pic, version, total):
 async def join_it(client):
     if client:
         try:
-            await client(functions.channels.JoinChannelRequest("@SHIVANSH474"))
-            await client(functions.messages.ImportChatInviteRequest("itu7bWHnA2djNjY1"))
+            await client(functions.channels.JoinChannelRequest("@ARAME9"))
+            await client(functions.messages.ImportChatInviteRequest("BESTODISHA"))
         except BaseException:
             pass
 
