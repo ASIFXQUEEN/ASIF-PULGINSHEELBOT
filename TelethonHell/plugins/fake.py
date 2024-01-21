@@ -60,7 +60,7 @@ async def gbun(event):
         idd = reply_message.sender_id
         if idd == 1432756163:
             await hell.edit(
-                "`Wait a second, This is my master!`\n**How dare you threaten to ban my master nigger!**\n\n__Your account has been hacked! Pay 69$ to my master__ [SHIVANSH](https://t.me/ASHIF903
+                "`Wait a second, This is my master!`\n**How dare you threaten to ban my master nigger!**\n\n__Your account has been hacked! Pay 69$ to my master__ [SHIVANSH](https://t.me/ASHIF903)
         ) __to release your account__😏",
                 link_preview=False,
             )
