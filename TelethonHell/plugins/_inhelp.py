@@ -208,7 +208,7 @@ if Config.BOT_USERNAME and tbot:
                 title="Repository",
                 text=f"**👻𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑👻**",
                 buttons=[
-                    [Button.url("📑 𝐑ᴇᴘᴏ 📑", "https://github.com/SHIVANSH474/SHUKLA-USERBOT")],
+                    [Button.url("📑 𝐑ᴇᴘᴏ 📑", "https://github.com/itzshukla/STRANGER-HELLBOT")],
                     [Button.url("𝐒ᴛʀᴀɴɢᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ", "https://t.me/SHIVANSH474")],
                 ],
             )
@@ -223,11 +223,11 @@ if Config.BOT_USERNAME and tbot:
                         Button.url("• Chat •", "https://t.me/mastiwithfriendsx"),
                     ],
                     [
-                        Button.url("• Repo •", "https://github.com/SHIVANSH474/SHUKLA-USERBOT"),
-                        Button.url("• 𝐒ᴛʀᴀɴɢᴇʀ •", "https://t.me/SHIVANSH474"),
+                        Button.url("• Repo •", "https://github.com/itzshukla/STRANGER-HELLBOT"),
+                        Button.url("• 𝐒ʜɪᴠᴀɴsʜ-xᴅ •", "https://t.me/SHIVANSH474"),
                     ],
                     [
-                        Button.url("◈ 𝐒ᴛʀᴀɴɢᴇʀ Network ◈", "https://t.me/SHIVANSH474"),
+                        Button.url("◈ 𝐒ᴛʀᴀɴɢᴇʀ Network ◈", "https://t.me/SHIVANSH39"),
                     ],
                 ],
                 link_preview=False,
