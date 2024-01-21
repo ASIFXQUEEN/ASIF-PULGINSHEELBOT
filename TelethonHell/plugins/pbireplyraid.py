@@ -96,7 +96,7 @@ async def _(event):
         queue.pop(0)
         await event.edit(f"hindi Reply Raid has been De-activated on {username}")
 
-CmdHelp("hirraid").add_command(
+CmdHelp("hindireplyraid").add_command(
     "hirraid", None, "Starts hindi reply raid on mentioned user."
 ).add_command(
     "dhirraid", None, "Stops hindi reply raid on mentioned user."
