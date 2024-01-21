@@ -11,7 +11,7 @@ from TelethonHell.plugins import *
 # -------------------------------------------------------------------------------
 
 ALIVE_TEMP = """
-<b><i>🎈𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🎈</i></b>
+<b><i>🎈𝐌𝐈𝐒𝐒𝐐𝐔𝐄𝐄𝐍 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🎈</i></b>
 
 <b><i> 𝐎𝐖𝐍𝐄𝐑:</i></b> : 『 {hell_mention} 』
 ╭──────────────
@@ -21,11 +21,11 @@ ALIVE_TEMP = """
 ┣─ <b>»𝐔𝐏𝐓𝐈𝐌𝐄:</b> <i>{uptime}</i>
 ┣─ <b>»𝐏𝐈𝐍𝐆:</b> <i>{ping}</i>
 ╰──────────────
-<b><i>»»» <a href='https://t.me/SHIVANSH474'>𝐓𝐇𝐄 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑</a> «««</i></b>
+<b><i>»»» <a href='https://t.me/ARAME9'>𝐌𝐈𝐒𝐒𝐐𝐔𝐄𝐄𝐍 𝐁𝐎𝐓</a> «««</i></b>
 
-<b><i>⛧ <a href='https://t.me/SHIVANSH474'>✦𝑺𝑻𝑹𝑨𝑵𝑮𝑬𝑹✦</a> ⛧</i></b>
+<b><i>⛧ <a href='https://t.me/ASHIF903'>✦𝑺𝑻𝑹𝑨𝑵𝑮𝑬𝑹✦</a> ⛧</i></b>
 
-<b><i>⛧ <a href='https://t.me/SHIVANSH39'>✦𐏓 𝑺𝑯𝑰𝑽𝑨𝑵𝑺𝑯🦅⃕⃔</a> ⛧</i></b>
+<b><i>⛧ <a href='https://t.me/ASHIF903'>✦𐏓 𝐀𝐒𝐈𝐅🦅⃕⃔</a> ⛧</i></b>
 """
 
 msg = """{}\n
@@ -70,7 +70,7 @@ async def _(event):
                 pic_list.append(c)
         PIC = random.choice(pic_list)
     else:
-        PIC = "https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg"
+        PIC = "https://telegra.ph/file/eb3d0c67ac1c3b04849a3.jpg"
     end = datetime.datetime.now()
     ping = (end - start).microseconds / 1000
     alive = alive_temp.format(
@@ -95,7 +95,7 @@ async def _(event):
 async def hell_a(event):
     userid, _, _ = await client_id(event)
     uptime = await get_time((time.time() - StartTime))
-    am = gvarstat("ALIVE_MSG") or "<b>»» 𝐒ᴛʀᴀɴɢᴇʀ ʙᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ ««</b>"
+    am = gvarstat("ALIVE_MSG") or "<b>»» 𝐌𝐈𝐒𝐒𝐐𝐔𝐄𝐄𝐍 𝐁𝐎𝐓 𝐈s 𝐀ʟɪᴠᴇ ««</b>"
     try:
         hell = await event.client.inline_query(Config.BOT_USERNAME, "alive")
         await hell[0].click(event.chat_id)
