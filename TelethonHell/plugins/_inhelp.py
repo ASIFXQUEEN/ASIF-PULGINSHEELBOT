@@ -18,9 +18,9 @@ else:
 
 
 alive_txt = """{}\n
-<b><i>🏅𝑺𝑻𝑹𝑨𝑵𝑮𝑬𝑹 𝑩𝑶𝑻 𝑺𝑻𝑨𝑼𝑻𝑺 🏅</b></i>
+<b><i>🏅𝑴𝑰𝑺𝑺𝑸𝑼𝑬𝑬𝑵 𝑩𝑶𝑻 𝑩𝑶𝑻 𝑺𝑻𝑨𝑼𝑻𝑺 🏅</b></i>
 <b>𝑻𝑬𝑳𝑬𝑻𝑯𝑶𝑵 ≈</b>  <i>{}</i>
-<b>𝑺𝑻𝑹𝑨𝑵𝑮𝑬𝑹 ≈</b>  <i>{}</i>
+<b> ≈</b>𝑴𝑰𝑺𝑺𝑸𝑼𝑬𝑬𝑵 𝑩𝑶𝑻  <i>{}</i>
 <b>𝑼𝑷𝑻𝑰𝑴𝑬 ≈</b>  <i>{}</i>
 <b>𝑨𝑩𝑼𝑺𝑬 ≈</b>  <i>{}</i>
 <b>𝑺𝑼𝑫𝑶 ≈</b>  <i>{}</i>
@@ -73,7 +73,7 @@ if Config.BOT_USERNAME and tbot:
             if a:
                 help_pic = a.split(" ")[0]
             else:
-                help_pic = "https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg"
+                help_pic = "https://telegra.ph/file/eb3d0c67ac1c3b04849a3.jpg"
             help_msg = f"📌 **{hell_mention}**\n\n✉️ __ᴘʟᴜɢɪɴs:__ `{len(CMD_HELP)}` \n📂 __ᴄᴏᴍᴍᴀɴᴅs:__ `{len(apn)}`\n📃 __ᴘᴀɢᴇ:__ 1/{veriler[0]}"
             if help_pic == "DISABLE":
                 result = builder.article(
@@ -99,7 +99,7 @@ if Config.BOT_USERNAME and tbot:
                 )
         elif event.query.user_id in auth and query == "alive":
             uptime = await get_time((time.time() - StartTime))
-            alive_msg = gvarstat("ALIVE_MSG") or "»»» <b>𝐒ᴛʀᴀɴɢᴇʀ 𝐈s 𝐎ɴʟɪɴᴇ</b> «««"
+            alive_msg = gvarstat("ALIVE_MSG") or "»»» <b>𝑴𝑰𝑺𝑺𝑸𝑼𝑬𝑬𝑵 𝑩𝑶𝑻 𝐈s 𝐎ɴʟɪɴᴇ</b> «««"
             alive_name = gvarstat("ALIVE_NAME") or HELL_USER
             he_ll = alive_txt.format(
                 alive_msg, telethon_version, hellbot_version, uptime, abuse_m, is_sudo
@@ -109,8 +109,8 @@ if Config.BOT_USERNAME and tbot:
                     Button.url(f"{alive_name}", f"tg://openmessage?user_id={ForGo10God}")
                 ],
                 [
-                    Button.url("🍁𝐃ᴇᴠᴇʟᴏᴘᴇʀ🍁", f"https://t.me/SHIVANSH474"),
-                    Button.url("My Group", f"https://t.me/mastiwithfriendsx"),
+                    Button.url("🍁𝐃ᴇᴠᴇʟᴏᴘᴇʀ🍁", f"https://t.me/ASHIF903"),
+                    Button.url("My Group", f"https://t.me/BESTODISHA"),
                 ],
             ]
             a = gvarstat("ALIVE_PIC")
@@ -122,7 +122,7 @@ if Config.BOT_USERNAME and tbot:
                         pic_list.append(c)
                 PIC = random.choice(pic_list)
             else:
-                PIC = "https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg"
+                PIC = "https://telegra.ph/file/eb3d0c67ac1c3b04849a3.jpg"
             if PIC and PIC.endswith((".jpg", ".png")):
                 result = builder.photo(
                     PIC,
@@ -143,7 +143,7 @@ if Config.BOT_USERNAME and tbot:
             else:
                 result = builder.article(
                     text=he_ll,
-                    title="𝐒ᴛʀᴀɴɢᴇʀ 𝐀ʟɪᴠᴇ",
+                    title="𝐌𝐈𝐒𝐒𝐐𝐔𝐄𝐄𝐍 𝐁𝐎𝐓 𝐀ʟɪᴠᴇ",
                     buttons=alv_btn,
                     link_preview=False,
                     parse_mode="HTML",
@@ -151,7 +151,7 @@ if Config.BOT_USERNAME and tbot:
 
         elif event.query.user_id in auth and query == "pm_warn":
             CSTM_PMP = gvarstat("CUSTOM_PMPERMIT") or None
-            HELL_FIRST = f"👻 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐏𝐌 𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘 👻 \n\n👋🏻𝐇𝐄𝐘 {hell_mention}  \n❤️𝐌𝐘 𝐎𝐖𝐍𝐄𝐑 𝐈𝐒 𝐎𝐅𝐅𝐋𝐈𝐍𝐄 𝐒𝐎 𝐏𝐋𝐄𝐀𝐒𝐄 𝐃𝐎𝐍,𝐓 𝐒𝐏𝐀𝐌🌪️ \n⚡𝐈𝐅 𝐘𝐎𝐔 𝐒𝐏𝐀𝐌 , 𝐘𝐎𝐔 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃 𝐀𝐔𝐓𝐎𝐌𝐀𝐓𝐈𝐂𝐀𝐋𝐋𝐘 🌸 \n\n🦋 𝐖𝐀𝐈𝐓 𝐅𝐎𝐑 𝐎𝐖𝐍𝐄𝐑 𝐌𝐘 𝐂𝐔𝐓𝐄 [🅑𝐄𝐓𝐄](tg://settings) ❤️"
+            HELL_FIRST = f"👻 𝐌𝐈𝐒𝐒𝐐𝐔𝐄𝐄𝐍 𝐁𝐎𝐓 𝐏𝐌 𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘 👻 \n\n👋🏻𝐇𝐄𝐘 {hell_mention}  \n❤️𝐌𝐘 𝐎𝐖𝐍𝐄𝐑 𝐈𝐒 𝐎𝐅𝐅𝐋𝐈𝐍𝐄 𝐒𝐎 𝐏𝐋𝐄𝐀𝐒𝐄 𝐃𝐎𝐍,𝐓 𝐒𝐏𝐀𝐌🌪️ \n⚡𝐈𝐅 𝐘𝐎𝐔 𝐒𝐏𝐀𝐌 , 𝐘𝐎𝐔 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃 𝐀𝐔𝐓𝐎𝐌𝐀𝐓𝐈𝐂𝐀𝐋𝐋𝐘 🌸 \n\n🦋 𝐖𝐀𝐈𝐓 𝐅𝐎𝐑 𝐎𝐖𝐍𝐄𝐑 𝐌𝐘 𝐂𝐔𝐓𝐄 [🅑𝐄𝐓𝐄](tg://settings) ❤️"
             if CSTM_PMP:
                 HELL_FIRST += f"\n\n{CSTM_PMP}"
             a = gvarstat("PMPERMIT_PIC")
@@ -208,26 +208,26 @@ if Config.BOT_USERNAME and tbot:
                 title="Repository",
                 text=f"**👻𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑👻**",
                 buttons=[
-                    [Button.url("📑 𝐑ᴇᴘᴏ 📑", "https://github.com/itzshukla/STRANGER-HELLBOT")],
-                    [Button.url("𝐒ᴛʀᴀɴɢᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ", "https://t.me/SHIVANSH474")],
+                    [Button.url("📑 𝐌𝐈𝐒𝐒𝐐𝐔𝐄𝐄𝐍 𝐁𝐎𝐓 📑", "https://t.me/ashif903")],
+                    [Button.url("𝐒ᴛʀᴀɴɢᴇʀ 𝐍ᴇᴛᴡᴏʀᴋ", "https://t.me/ARAME9")],
                 ],
             )
 
         else:
             result = builder.article(
                 "@SHIVANSH474",
-                text="""**Hey! This is [𝐒ᴛʀᴀɴɢᴇʀ†](https://t.me/SHIVANSH474) \nYou can know more about me from the links given below 👇**""",
+                text="""**Hey! This is [𝐒ᴛʀᴀɴɢᴇʀ†](https://t.me/ASHIF903) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        Button.url("• Updates •", "https://t.me/SHIVANSH474"),
-                        Button.url("• Chat •", "https://t.me/mastiwithfriendsx"),
+                        Button.url("• Updates •", "https://t.me/BOT_HEART"),
+                        Button.url("• Chat •", "https://t.me/BESTODISHA"),
                     ],
                     [
-                        Button.url("• Repo •", "https://github.com/itzshukla/STRANGER-HELLBOT"),
-                        Button.url("• 𝐒ʜɪᴠᴀɴsʜ-xᴅ •", "https://t.me/SHIVANSH474"),
+                        Button.url("• Repo •", "https://t.me/ashif903"),
+                        Button.url("• 𝐌𝐈𝐒𝐒𝐐𝐔𝐄𝐄N •", "https://t.me/ASHIF903"),
                     ],
                     [
-                        Button.url("◈ 𝐒ᴛʀᴀɴɢᴇʀ Network ◈", "https://t.me/SHIVANSH39"),
+                        Button.url("◈ 𝐒ᴛʀᴀɴɢᴇʀ Network ◈", "https://t.me/ARAME9"),
                     ],
                 ],
                 link_preview=False,
@@ -405,7 +405,7 @@ if Config.BOT_USERNAME and tbot:
             )
         else:
             return await event.answer(
-                "Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ and use your bot. Go to @SHIVANSH474 for more info.",
+                "Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ and use your bot. Go to @ASHIF903 for more info.",
                 cache_time=0,
                 alert=True,
             )
