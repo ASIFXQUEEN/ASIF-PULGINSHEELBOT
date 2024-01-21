@@ -60,7 +60,7 @@ async def _(event):
             reply_to=event.message.id,
         )
 
-@hell_cmd(pattern="loveraid(?:\s|$)([\s\S]*)")
+@hell_cmd(pattern="mraid(?:\s|$)([\s\S]*)")
 async def _(event):
     global que
     if event.fwd_from:
@@ -91,7 +91,7 @@ async def _(event):
         await event.edit(f"love has been activated on {username}")
 
 
-@hell_cmd(pattern="dlove(?:\s|$)([\s\S]*)")
+@hell_cmd(pattern="dmraid(?:\s|$)([\s\S]*)")
 async def _(event):
     global que
     if event.fwd_from:
@@ -118,9 +118,9 @@ async def _(event):
         await event.edit(f"love has been De-activated on {username}")
 
 CmdHelp("loveraid").add_command(
-    "devlove", None, "Starts  love on mentioned user."
+    "mraid", None, "Starts  love on mentioned user."
 ).add_command(
-    "dlove", None, "Stops  love on mentioned user."
+    "dmraid", None, "Stops  love on mentioned user."
 ).add_warning(
     "May get floodwait!"
 ).add_info(
