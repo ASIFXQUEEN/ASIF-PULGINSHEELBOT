@@ -13,7 +13,7 @@ from TelethonHell.utils.startup import (join_it, logger_check, start_msg,
 from TelethonHell.version import __hellver__
 
 # Global Variables #
-HELL_PIC = "https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg"
+HELL_PIC = "https://telegra.ph/file/51f3128fcbd22ee231ea5.jpg"
 
 
 # Client Starter
