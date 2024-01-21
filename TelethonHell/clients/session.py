@@ -12,7 +12,7 @@ def validate_session(session):
         new_session = session[6:-5]
         return str(new_session)
     else:
-        print(f"STRANGER SESSION - Wrong session string!")
+        print(f"QUEEN SESSION - Wrong session string!")
         sys.exit()
 
 
