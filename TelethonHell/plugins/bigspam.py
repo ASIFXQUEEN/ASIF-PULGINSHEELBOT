@@ -2,7 +2,7 @@ from . import *
 
 global x
 
-@hell_cmd(pattern="stopbiggspam$")
+@hell_cmd(pattern="stopgaali$")
 async def _(event):
     await eor(event, "Stopped Big Gaali Spam!")
     global x
