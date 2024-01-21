@@ -110,7 +110,7 @@ if Config.BOT_USERNAME and tbot:
                 ],
                 [
                     Button.url("🍁𝐃ᴇᴠᴇʟᴏᴘᴇʀ🍁", f"https://t.me/SHIVANSH474"),
-                    Button.url("My Group", f"https://t.me/{my_group}"),
+                    Button.url("My Group", f"https://t.me/mastiwithfriendsx"),
                 ],
             ]
             a = gvarstat("ALIVE_PIC")
@@ -151,7 +151,7 @@ if Config.BOT_USERNAME and tbot:
 
         elif event.query.user_id in auth and query == "pm_warn":
             CSTM_PMP = gvarstat("CUSTOM_PMPERMIT") or None
-            HELL_FIRST = f"👻 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐏𝐌 𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘 👻 \n\n👋🏻𝐇𝐄𝐘 {hell_mention}  \n❤️𝐌𝐘 𝐎𝐖𝐍𝐄𝐑 𝐈𝐒 𝐎𝐅𝐅𝐋𝐈𝐍𝐄 𝐒𝐎 𝐏𝐋𝐄𝐀𝐒𝐄 𝐃𝐎𝐍,𝐓 𝐒𝐏𝐀𝐌🌪️ \n⚡𝐈𝐅 𝐘𝐎𝐔 𝐒𝐏𝐀𝐌 , 𝐘𝐎𝐔 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃 𝐀𝐔𝐓𝐎𝐌𝐀𝐓𝐈𝐂𝐀𝐋𝐋𝐘 🌸 \n\n🦋 𝐖𝐀𝐈𝐓 𝐅𝐎𝐑  𝐌𝐘 𝐂𝐔𝐓𝐄 [🅑𝐄𝐓𝐄](tg://settings) ❤️"
+            HELL_FIRST = f"👻 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐏𝐌 𝐒𝐄𝐂𝐔𝐑𝐈𝐓𝐘 👻 \n\n👋🏻𝐇𝐄𝐘 {hell_mention}  \n❤️𝐌𝐘 𝐎𝐖𝐍𝐄𝐑 𝐈𝐒 𝐎𝐅𝐅𝐋𝐈𝐍𝐄 𝐒𝐎 𝐏𝐋𝐄𝐀𝐒𝐄 𝐃𝐎𝐍,𝐓 𝐒𝐏𝐀𝐌🌪️ \n⚡𝐈𝐅 𝐘𝐎𝐔 𝐒𝐏𝐀𝐌 , 𝐘𝐎𝐔 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐁𝐋𝐎𝐂𝐊𝐄𝐃 𝐀𝐔𝐓𝐎𝐌𝐀𝐓𝐈𝐂𝐀𝐋𝐋𝐘 🌸 \n\n🦋 𝐖𝐀𝐈𝐓 𝐅𝐎𝐑 𝐎𝐖𝐍𝐄𝐑 𝐌𝐘 𝐂𝐔𝐓𝐄 [🅑𝐄𝐓𝐄](tg://settings) ❤️"
             if CSTM_PMP:
                 HELL_FIRST += f"\n\n{CSTM_PMP}"
             a = gvarstat("PMPERMIT_PIC")
