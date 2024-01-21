@@ -9,7 +9,7 @@ async def _(event):
     x = False
 
 
-@hell_cmd(pattern="biggspam$")
+@hell_cmd(pattern="gaali$")
 async def _(event):
     global x
     x = True
@@ -283,10 +283,10 @@ async def _(event):
         await hellbot.send_message(chat, "HAHAHAHAH")
 
 
-CmdHelp("biggspam").add_command(
-    "biggspam", None, "Big Gaali Spam!"
+CmdHelp("gaaliop").add_command(
+    "gaali", None, "Big Gaali Spam!"
 ).add_command(
-    "stopbiggspam", None, "Big gaali spam stop!"
+    "stopgaali", None, "Big gaali spam stop!"
 ).add_warning(
     "May get floodwait!"
 ).add_info(
