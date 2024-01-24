@@ -12,13 +12,13 @@ from TelethonHell.clients.client_list import get_user_id
 from TelethonHell.plugins import *
 
 ping_txt = """
-<b><i>╰•★★ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑-𝐁𝐎𝐓 ★★•╯</b></i>
+<b><i>╰•★★ 𝐌𝐈𝐒𝐒𝐐𝐔𝐄𝐄𝐍 𝐁𝐎𝐓 ★★•╯</b></i>
 
     ⚘  <i>𝑺𝑷𝑬𝑬𝑫:</i> <code>{}</code>
     ⚘  <i>𝑼𝑷𝑻𝑰𝑴𝑬:</i> <code>{}</code>
     ⚘  <i>𝑶𝑾𝑵𝑬𝑹:</i> {}
     
-    <b><i>✬ <a href='https://t.me/SHIVANSH474'>✦𝑯𝑬𝑳𝑷✦</a> ✬</i></b>
+    <b><i>✬ <a href='https://t.me/ARAME9'>✦𝑯𝑬𝑳𝑷✦</a> ✬</i></b>
 """
 
 
@@ -34,7 +34,7 @@ async def pong(event):
                 pic_list.append(c)
         PIC = choice(pic_list)
     else:
-        PIC = "https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg"
+        PIC = "https://telegra.ph/file/eb3d0c67ac1c3b04849a3.jpg"
     hell = await eor(event, "`·.·★ 𝑷𝑰𝑵𝑮 ★·.·´")
     ForGo10God, HELL_USER, hell_mention = await client_id(event, is_html=True)
     uptime = await get_time((time.time() - StartTime))
@@ -70,7 +70,7 @@ async def is_limited(event):
 
 @hell_cmd(pattern="kickme$")
 async def leave(event):
-    hell = await eor(event, " 𝐆ᴏᴏᴅ 𝐁ʏᴇ  [🦋](https://t.me/SHIVANSH474) [❤️](https://t.me/mastiwithfriendsx) 🥱")
+    hell = await eor(event, " 𝐆ᴏᴏᴅ 𝐁ʏᴇ  [🦋](https://t.me/ashif903) [❤️](https://t.me/bestodisha) 🥱")
     time.sleep(1)
     if "-" in str(event.chat_id):
         await event.client(LeaveChannelRequest(event.chat_id))
@@ -151,7 +151,7 @@ async def _(event):
             return await parse_error(event, e)
     
     else:
-        await eod(event, f"**SYNTAX EXAMPLE**\n\n~ `{hl}dm @SHIVANSH474 Hey Hell!` \n~ `{hl}dm @SHIVANSH474 <reply to a msg>`")
+        await eod(event, f"**SYNTAX EXAMPLE**\n\n~ `{hl}dm @ASHIF903 Hey Hell!` \n~ `{hl}dm @ashif903 <reply to a msg>`")
 
 
 @hell_cmd(pattern="chain$")
