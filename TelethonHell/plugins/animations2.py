@@ -118,7 +118,7 @@ async def _(event):
 @hell_cmd(pattern="tiranga$")
 async def test(event):
     await eor(
-        event,
+        event),
         """⭐
           💈🟧🟧🟧🟧🟧 
           💈⬜⬜🌐⬜⬜
