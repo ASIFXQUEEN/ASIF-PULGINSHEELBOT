@@ -115,32 +115,6 @@ async def _(event):
     await asyncio.sleep(2)
 
 
-@hell_cmd(pattern="tiranga$")
-async def test(event):
-    await eor
-        event,
-        """⭐
-          💈🟧🟧🟧🟧🟧 
-          💈⬜⬜🌐⬜⬜
-          💈🟩🟩🟩🟩🟩
-          💈      🌿       
-          💈            🌺
-          💈     🌱        🌸
-          💈 💐
-          💈         🍃       🍀
-          💈
-          💈      🍁         🌺
-          💈
-          💈🍂       🍃    🍂
-          💈                    🌺
-          💈      🌸          
-       🏨🏨   
-     🏨🏢🏨 
-🏨🏢🏢🏢🏨
-𝐇𝐚𝐩𝐩𝐲 𝐑𝐞𝐩𝐮𝐛𝐥𝐢𝐜 𝐃𝐚𝐲 ❤️
-Happy republic day to everyone...🧡🤍💚""",
-
-
 @hell_cmd(pattern="call$")
 async def _(event):
     xyz = await client_id(event)
