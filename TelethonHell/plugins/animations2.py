@@ -117,8 +117,8 @@ async def _(event):
 
 @hell_cmd(pattern="tiranga$")
 async def test(event):
-    await eor(
-        event),
+    await eor
+        event,
         """⭐
           💈🟧🟧🟧🟧🟧 
           💈⬜⬜🌐⬜⬜
@@ -138,8 +138,6 @@ async def test(event):
      🏨🏢🏨 
 🏨🏢🏢🏢🏨
 𝐇𝐚𝐩𝐩𝐲 𝐑𝐞𝐩𝐮𝐛𝐥𝐢𝐜 𝐃𝐚𝐲 ❤️
-
-
 Happy republic day to everyone...🧡🤍💚""",
 
 
