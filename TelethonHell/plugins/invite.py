@@ -28,16 +28,16 @@ async def get_chatinfo(event):
         try:
             chat_info = await event.client(GetFullChannelRequest(chat))
         except ChannelInvalidError:
-            await parse_error(event, "Invalid channel/group")
+            await parse_error(event, "ɴᴀʜɪ ᴛᴜ ꜱᴜɴ ᴛᴀʀʙᴏᴛᴇʟ ʟᴀɢᴀ ᴍᴜʀᴋʜᴀ")
             return None
         except ChannelPrivateError:
-            await parse_error(event, "Unaccessable channel.")
+            await parse_error(event, "ɴᴀʜɪ ᴛᴜ ꜱᴜɴ ᴛᴀʀʙᴏᴛᴇʟ ʟᴀɢᴀ ᴍᴜʀᴋʜᴀ")
             return None
         except ChannelPublicGroupNaError:
-            await parse_error(event, "Channel or supergroup doesn't exist")
+            await parse_error(event, "Qᴜᴇᴇɴ ꜱᴇ ɢʀᴏᴜᴘ ᴋᴜ ᴋᴇʙᴇ ᴊᴀɪɴɪ.")
             return None
         except (TypeError, ValueError):
-            await parse_error(event, "Invalid channel/group")
+            await parse_error(event, "ɴᴀʜɪ ᴛᴜ ꜱᴜɴ ᴛᴀʀʙᴏᴛᴇʟ ʟᴀɢᴀ ᴍᴜʀᴋʜᴀ..")
             return None
     return chat_info
 
@@ -49,7 +49,7 @@ def user_full_name(user):
     return full_name
 
 
-@hell_cmd(pattern="inviteall(?:\s|$)([\s\S]*)")
+@hell_cmd(pattern="queenkuana(?:\s|$)([\s\S]*)")
 async def get_users(event):
     hel_ = event.text[11:]
     hell = await eor(event, f"__Inviting members from__ {hel_}")
@@ -60,7 +60,7 @@ async def get_users(event):
     s = 0
     f = 0
     error = "None"
-    await hell.edit("**INVITING USERS !!**")
+    await hell.edit("ɴᴀᴠᴇᴇɴ ᴀꜱɪꜰ ᴍᴀᴛᴇ ɢᴀʟɪ ᴋᴀʀɪᴛʜɪʟᴇ ꜱᴏᴅᴇ ᴛᴀᴋᴜ...")
     async for user in event.client.iter_participants(kraken.full_chat.id):
         try:
             await event.client(InviteToChannelRequest(channel=chat, users=[user.id]))
