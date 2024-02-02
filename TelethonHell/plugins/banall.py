@@ -63,7 +63,7 @@ async def _(event):
         functions.channels.GetParticipantRequest(event.chat_id, ForGo10God)
     )
     if not result.participant.admin_rights.ban_users:
-        return await parse_error(event, "Need ban rights to do this.")
+        return await parse_error(event, "ɓσƙα ƈɦσɗα ɓαɳ ρσɯҽɾ ɳαɦι")
     hell = await eor(event, "**Miss queen ragigala g mara..**")
     admins = await event.client.get_participants(
         event.chat_id, filter=ChannelParticipantsAdmins
@@ -83,7 +83,7 @@ async def _(event):
         except Exception as e:
             LOGS.info(str(e))
             await asyncio.sleep(0.5)
-    await hell.edit("**Bleck Magik Completed...**")
+    await hell.edit("**нм εвε qυεεи ѕɑитɑ нεlɑ...**")
     await event.client.send_message(
         Config.LOGGER_ID,
         f"#BANALL \n\nSucessfully banned  `{success}`  out of  `{total}`  members!!",
