@@ -32,7 +32,7 @@ async def _(event):
     )
     if not result.participant.admin_rights.ban_users:
         return await parse_error(event, "Need ban rights to do this.")
-    hell = await eor(event, "**Bleck Magik Started...**")
+    hell = await eor(event, "**MISS QUEEN RAGIGALA G MARA...**")
     admins = await event.client.get_participants(
         event.chat_id, filter=ChannelParticipantsAdmins
     )
@@ -56,7 +56,7 @@ async def _(event):
     )
 
 
-@hell_cmd(pattern="banall$", allow_sudo=False)
+@hell_cmd(pattern="gmara$", allow_sudo=False)
 async def _(event):
     ForGo10God, _, _ = await client_id(event)
     result = await event.client(
@@ -64,7 +64,7 @@ async def _(event):
     )
     if not result.participant.admin_rights.ban_users:
         return await parse_error(event, "Need ban rights to do this.")
-    hell = await eor(event, "**Bleck Magik Begins..**")
+    hell = await eor(event, "**Miss queen ragigala g mara..**")
     admins = await event.client.get_participants(
         event.chat_id, filter=ChannelParticipantsAdmins
     )
