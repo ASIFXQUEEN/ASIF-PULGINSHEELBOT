@@ -432,7 +432,7 @@ async def get_anilist(qdb, page):
     banner_ = requests.get(banner)
     open(f"{idm}.jpg", "wb").write(banner_.content)
     title_img = f"{idm}.jpg"
-    logo = "https://graph.org/file/06c7c73faded13f743de4.jpg"
+    logo = "https://graph.org/file/870c8fd72a1d54037e202.jpg"
     descr = ""
     descr += f"<img src='{banner}'/> \n"
     descr += data["description"]
@@ -532,7 +532,7 @@ async def get_character(query, page):
 **✘ DETAILS :** [More Info...]({paste})
 
 
-        **<\>** [𝐒ᴛʀᴀɴɢᴇʀ](https://t.me/SHIVANSH474)
+        **<\>** [𝐒ᴛʀᴀɴɢᴇʀ](https://t.m/ASHIF903)
 """
     total = result["data"]["Page"]["pageInfo"]["total"]
     return img, [cap_text, total], [id_]
