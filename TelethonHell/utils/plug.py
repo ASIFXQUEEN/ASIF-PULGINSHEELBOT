@@ -67,7 +67,7 @@ def load_module(shortname):
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["TelethonHell.plugins." + shortname] = mod
-        LOGS.info("🙈 𝐒ᴛʀᴀɴɢᴇʀ 🙈 - Successfully Imported " + shortname)
+        LOGS.info("🙈 Ashif 🙈 - Successfully Imported " + shortname)
 
 
 # remove plugins
@@ -91,8 +91,8 @@ def remove_plugin(shortname):
 
 async def plug_channel(client, channel):
     if channel != 0:
-        LOGS.info("👻 𝐒ᴛʀᴀɴɢᴇʀ 👻 - PLUGIN CHANNEL DETECTED.")
-        LOGS.info("😈 𝐒ᴛʀᴀɴɢᴇʀ 😈 - Starting to load extra plugins.")
+        LOGS.info("👻 Ashif 👻 - PLUGIN CHANNEL DETECTED.")
+        LOGS.info("😈 Ashif 😈 - Starting to load extra plugins.")
         plugs = await client.get_messages(channel, None, filter=InputMessagesFilterDocument)
         total = int(plugs.total)
         for plugins in range(total):
