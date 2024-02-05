@@ -64,8 +64,8 @@ if "@" in my_channel:
 if "@" in my_group:
     my_group = my_group.replace("@", "")
 
-chnl_link = "https://t.me/SHIVANSH474"
-grp_link = "https://t.me/mastiwithfriendsx"
+chnl_link = "https://t.me/ASHIF903"
+grp_link = "https://t.me/bestodisha"
 hell_channel = f"[ᴛʜᴇ 𝐒ᴛʀᴀɴɢᴇʀ ʙᴏᴛ]({chnl_link})"
 hell_grp = f"[𝐒ᴛʀᴀɴɢᴇʀ ʙᴏᴛ ɢʀᴏᴜᴘ]({grp_link})"
 
