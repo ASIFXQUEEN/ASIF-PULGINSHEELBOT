@@ -47,7 +47,7 @@ def button(page, modules):
     buttons.append(
         [
             Button.inline(f"⤟ Back {hell_emoji}", data=f"page({(max_pages - 1) if page == 0 else (page - 1)})"),
-            Button.inline(f"• 📍 •", data="close"),
+            Button.inline(f"• 💘 •", data="close"),
             Button.inline(f"{hell_emoji} Next ⤠", data=f"page({0 if page == (max_pages - 1) else (page + 1)})"),
         ]
     )
@@ -93,7 +93,7 @@ if Config.BOT_USERNAME and tbot:
                 result = builder.document(
                     help_pic,
                     text=help_msg,
-                    title="𝐒ᴛʀᴀɴɢᴇʀ 𝐀ʟɪᴠᴇ",
+                    title="𝐀ꜱɪꜰ 𝐀ʟɪᴠᴇ",
                     buttons=veriler[1],
                     link_preview=False,
                 )
@@ -321,7 +321,7 @@ if Config.BOT_USERNAME and tbot:
                     file=help_pic,
                 )
         else:
-            await event.answer("Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ Bot and use your bot. Go to @SHIVANSH474 for more info.", cache_time=0, alert=True)
+            await event.answer("Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ Bot and use your bot. Go to @ASHIF903 for more info.", cache_time=0, alert=True)
 
     @tbot.on(CallbackQuery(data=compile(b"close")))
     async def on_plug_in_callback_query_handler(event):
@@ -332,18 +332,18 @@ if Config.BOT_USERNAME and tbot:
                 f"{hell_emoji} Re-Open Menu {hell_emoji}", data="reopen"
             )
             await event.edit(
-                f"**🎭 Closed 𝐒ᴛʀᴀɴɢᴇʀʙᴏᴛ's help menu**\n\n**Bot Of:**  {hell_mention}\n\n        [©️ 𝐒ᴛʀᴀɴɢᴇʀʙᴏᴛ ™️]({chnl_link})",
+                f"**🎭 Closed 𝐒ᴛʀᴀɴɢᴇʀʙᴏᴛ's help menu**\n\n**Bot Of:**  {hell_mention}\n\n        [©️ MISSQUEEN ™️]({chnl_link})",
                 buttons=veriler,
                 link_preview=False,
             )
         else:
-            await event.answer("Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ and use your bot. Go to @SHIVANSH474 for more info.", cache_time=0, alert=True)
+            await event.answer("Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ and use your bot. Go to @ASHIF903 for more info.", cache_time=0, alert=True)
             
     @tbot.on(CallbackQuery(data=compile(b"send\((.+?)\)")))
     async def send(event):
         plugin = event.data_match.group(1).decode("UTF-8")
         _, _, hell_mention = await client_id(event, event.query.user_id)
-        omk = f"**• Plugin name ≈** `{plugin}`\n**• Uploaded by ≈** {hell_mention}\n\n⚡ **[𝐒ᴛʀᴀɴɢᴇʀ]({chnl_link})** ⚡"
+        omk = f"**• Plugin name ≈** `{plugin}`\n**• Uploaded by ≈** {hell_mention}\n\n⚡ **[MISQUEEN]({chnl_link})** ⚡"
         the_plugin_file = "./TelethonHell/plugins/{}.py".format(plugin.lower())
         butt = Button.inline(f"{hell_emoji} Main Menu {hell_emoji}", data="reopen")
         if os.path.exists(the_plugin_file):
@@ -374,8 +374,8 @@ if Config.BOT_USERNAME and tbot:
             )
         else:
             return await event.answer(
-                "Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ and use your bot. Go to @SHIVANSH474 for more info.",
-                cache_time=0,
+                "Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ and use your bot. Go to @ASHIF903 for more info.",
+                cache_time=0 
                 alert=True,
             )
 
@@ -455,7 +455,7 @@ if Config.BOT_USERNAME and tbot:
             )
         else:
             return await event.answer(
-                "Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ and use your bot. Go to @SHIVANSH474 for more info.",
+                "Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ and use your bot. Go to @ASHIF903 for more info.",
                 cache_time=0,
                 alert=True,
             )
