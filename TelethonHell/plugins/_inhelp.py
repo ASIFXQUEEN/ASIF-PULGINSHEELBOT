@@ -375,7 +375,7 @@ if Config.BOT_USERNAME and tbot:
         else:
             return await event.answer(
                 "Hello! This help menu is not for you, you can make yourself a 𝐒ᴛʀᴀɴɢᴇʀ and use your bot. Go to @ASHIF903 for more info.",
-                cache_time=0 
+                cache_time=0,
                 alert=True,
             )
 
