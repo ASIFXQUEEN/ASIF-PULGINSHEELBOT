@@ -23,7 +23,7 @@ async def _(event):
         await hellbot.send_message(chat, "FAAD DUNGA")
         await hellbot.send_message(chat, "HIJDA SALA")
         await hellbot.send_message(chat, "BETE KALAP JAA")
-        await hellbot.send_message(chat, "TERI MA KI CHUT ME STRANGER KA LAND")
+        await hellbot.send_message(chat, "TERI MA KI CHUT ME ASIF KA LAND")
         await hellbot.send_message(chat, "STRANGER OP TERE JAISE USKE LAND KI TOPI")
         await hellbot.send_message(chat, "BAAG JA BETE")
         await hellbot.send_message(chat, "TERA BAAP HU RANDI")
