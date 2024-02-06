@@ -57,8 +57,8 @@ telethon_version = __telever__
 abuse_m = "Enabled" if str(Config.ABUSE).lower() in enabled_list else "Disabled"
 is_sudo = "True" if gvar_sql.gvarstat("SUDO_USERS") else "False"
 
-my_channel = Config.MY_CHANNEL or "SHIVANSH474"
-my_group = Config.MY_GROUP or "mastiwithfriendsx"
+my_channel = Config.MY_CHANNEL or "BESTODISHA"
+my_group = Config.MY_GROUP or "arame9"
 if "@" in my_channel:
     my_channel = my_channel.replace("@", "")
 if "@" in my_group:
