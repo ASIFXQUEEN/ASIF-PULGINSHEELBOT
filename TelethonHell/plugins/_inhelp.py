@@ -215,7 +215,7 @@ if Config.BOT_USERNAME and tbot:
 
         else:
             result = builder.article(
-                "@SHIVANSH474",
+                "@ASHIF903",
                 text="""**Hey! This is [𝐒ᴛʀᴀɴɢᴇʀ†](https://t.me/ASHIF903) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
